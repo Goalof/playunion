@@ -7,7 +7,9 @@ export default {
 			"children": [
 				"6079f3c67c7120001f1ee28a",
 				"6079f3c67c7120001f1ee28c",
-				"6079f4e292d19d001eee6d12"
+				"6079f4e292d19d001eee6d12",
+				"6081a651951877001f1e32c6",
+				"6081aab923a143001e08fb32"
 			]
 		},
 		"6079f3c67c7120001f1ee28a": {
@@ -30,6 +32,16 @@ export default {
 			"seo": {
 				"title": "Союз участников интеллектуальных игр"
 			}
+		},
+		"6081a651951877001f1e32c6": {
+			"id": "6081a651951877001f1e32c6",
+			"pageUrl": "marina-bludyan",
+			"name": "Марина Блудян"
+		},
+		"6081aab923a143001e08fb32": {
+			"id": "6081aab923a143001e08fb32",
+			"pageUrl": "turnirnyj-poker",
+			"name": "Турнирный покер"
 		}
 	},
 	"mode": "production",

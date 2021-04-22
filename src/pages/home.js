@@ -26,7 +26,7 @@ export default (() => {
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
-				<StackItem width="20%" display="flex" lg-width="50%" sm-width="70%">
+				<StackItem width="25%" display="flex" lg-width="50%" sm-width="70%">
 					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" />
 					{"        "}
 					<Image
@@ -39,7 +39,7 @@ export default (() => {
 					{"    "}
 				</StackItem>
 				{"    "}
-				<StackItem width="80%" display="flex" lg-width="50%" sm-width="30%">
+				<StackItem width="75%" display="flex" lg-width="50%" sm-width="30%">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" />
 					{"        "}
 					<Box display="none" align-items="center" justify-content="center">
@@ -161,12 +161,12 @@ export default (() => {
 								color="#000000"
 								font="600 20px --fontFamily-googleMontserrat"
 								padding="10px 13px 10px 12px"
-								hover-opacity="0.7"
 								transition="opacity 0.4s ease 0s"
 								lg-margin="0px 0px 8px 0px"
 								lg-font="600 24px --fontFamily-googleMontserrat"
 								sm-font="600 20px --fontFamily-googleMontserrat"
 								sm-text-align="center"
+								hover-color="#001A51"
 							>
 								О нас
 							</Link>
@@ -176,12 +176,12 @@ export default (() => {
 								color="#000000"
 								font="600 20px --fontFamily-googleMontserrat"
 								padding="10px 13px 10px 12px"
-								hover-opacity="0.7"
 								transition="opacity 0.4s ease 0s"
 								lg-margin="0px 0px 8px 0px"
 								lg-font="600 24px --fontFamily-googleMontserrat"
 								sm-font="600 20px --fontFamily-googleMontserrat"
 								sm-text-align="center"
+								hover-color="#001A51"
 							>
 								Категории игр
 							</Link>
@@ -191,12 +191,12 @@ export default (() => {
 								color="#000000"
 								font="600 20px --fontFamily-googleMontserrat"
 								padding="10px 13px 10px 12px"
-								hover-opacity="0.7"
 								transition="opacity 0.4s ease 0s"
 								lg-margin="0px 0px 8px 0px"
 								lg-font="600 24px --fontFamily-googleMontserrat"
 								sm-font="600 20px --fontFamily-googleMontserrat"
 								sm-text-align="center"
+								hover-color="#001A51"
 							>
 								Руководство и эксперты
 							</Link>
@@ -206,12 +206,12 @@ export default (() => {
 								color="#000000"
 								font="600 20px --fontFamily-googleMontserrat"
 								padding="10px 13px 10px 12px"
-								hover-opacity="0.7"
 								transition="opacity 0.4s ease 0s"
 								lg-margin="0px 0px 8px 0px"
 								lg-font="600 24px --fontFamily-googleMontserrat"
 								sm-font="600 20px --fontFamily-googleMontserrat"
 								sm-text-align="center"
+								hover-color="#001A51"
 							>
 								События
 							</Link>
@@ -221,29 +221,14 @@ export default (() => {
 								color="#000000"
 								font="600 20px --fontFamily-googleMontserrat"
 								padding="10px 13px 10px 12px"
-								hover-opacity="0.7"
 								transition="opacity 0.4s ease 0s"
 								lg-margin="0px 0px 8px 0px"
 								lg-font="600 24px --fontFamily-googleMontserrat"
 								sm-font="600 20px --fontFamily-googleMontserrat"
 								sm-text-align="center"
+								hover-color="#001A51"
 							>
 								Партнеры
-							</Link>
-							<Link
-								href="#contacts"
-								text-decoration-line="initial"
-								color="#000000"
-								font="600 20px --fontFamily-googleMontserrat"
-								padding="10px 13px 10px 12px"
-								hover-opacity="0.7"
-								transition="opacity 0.4s ease 0s"
-								lg-margin="0px 0px 8px 0px"
-								lg-font="600 24px --fontFamily-googleMontserrat"
-								sm-font="600 20px --fontFamily-googleMontserrat"
-								sm-text-align="center"
-							>
-								Контакты
 							</Link>
 						</Box>
 					</Components.MobileSide2>
@@ -313,7 +298,7 @@ export default (() => {
 				<StackItem width="100%" display="flex">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					<Text
-						font="32px/130% --fontFamily-googleMontserrat"
+						font="28px/130% --fontFamily-googleMontserrat"
 						margin="20px 0px 60px 0px"
 						lg-font="27px/130% --fontFamily-googleMontserrat"
 						lg-margin="20px 0px 40px 0px"
@@ -332,7 +317,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="categories" background="#F8F8F8" padding="5px 0 5px 0">
+		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -344,32 +329,47 @@ export default (() => {
 						sm-align-items="center"
 						sm-justify-content="center"
 					/>
-					<Text font="700 35px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" sm-font="700 28px/130% --fontFamily-googleMontserrat" sm-text-align="center">
+					<Text
+						font="700 35px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 0px 0px"
+						sm-font="700 28px/130% --fontFamily-googleMontserrat"
+						sm-text-align="center"
+						color="#ffffff"
+					>
 						Категории игр
 					</Text>
 					{"            "}
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="5px 0 5px 0" align-items="center" min-height="100vh">
+		<Section background="#F8F8F8" padding="95px 0 125px 0" align-items="center">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
 				<StackItem width="33.33%" display="flex" md-width="100%">
-					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" padding="0px 0px 0px 0px" />
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="flex-end"
+						padding="0px 0px 0px 0px"
+						md-justify-content="center"
+					/>
 					<Link
-						href="https://greenpeace.ru/"
+						href="/turnirnyj-poker"
 						display="flex"
 						align-items="center"
 						text-decoration-line="initial"
-						font="500 38px/130% --fontFamily-googleMontserrat"
+						font="500 30px/130% --fontFamily-googleMontserrat"
 						color="#000000"
 						hover-color="#8F3E2C"
 						target="_blank"
 						lg-font="600 28px/130% --fontFamily-googleMontserrat"
 						sm-font="600 20px/130% --fontFamily-googleMontserrat"
+						flex-direction="column"
+						justify-content="center"
+						text-align="center"
+						md-margin="0px 0px 20px 0px"
 					>
-						Турнирный покер
 						<Icon
 							category="gi"
 							icon={GiPokerHand}
@@ -377,49 +377,65 @@ export default (() => {
 							size="120px"
 							padding="15px 15px 15px 15px"
 						/>
-						{"  "}
+						Турнирный покер{"\n\t\t\n\t\t\t\t  "}
 					</Link>
 					{"          "}
 				</StackItem>
 				<StackItem width="33.33%" display="flex" md-width="100%">
-					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" padding="0px 0px 0px 0px" />
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="flex-end"
+						padding="0px 0px 0px 0px"
+						display="flex"
+						flex-direction="column"
+					/>
 					<Link
 						href="/"
 						display="flex"
 						align-items="center"
 						text-decoration-line="initial"
-						font="500 38px/130% --fontFamily-googleMontserrat"
+						font="500 30px/130% --fontFamily-googleMontserrat"
 						color="#000000"
 						hover-color="#8F3E2C"
 						target="_blank"
 						lg-font="600 28px/130% --fontFamily-googleMontserrat"
 						sm-font="600 20px/130% --fontFamily-googleMontserrat"
+						order="1"
+						flex-direction="column"
+						justify-content="center"
+						text-align="center"
+						md-margin="0px 0px 20px 0px"
 					>
-						Букмекерские игры
 						<Icon
 							category="gi"
 							icon={GiHorseshoe}
 							color="inherit"
 							size="110px"
 							padding="15px 15px 15px 15px"
+							order="0"
 						/>
-						{"  "}
+						Букмекерские игры{"\n\t\t\n\t\t\t\t  "}
 					</Link>
 					{"          "}
 				</StackItem>
 				<StackItem width="33.33%" display="flex" md-width="100%">
-					<Override slot="StackItemContent" justify-content="flex-start" padding="0px 0px 0px 0px" />
+					<Override slot="StackItemContent" justify-content="flex-start" padding="0px 0px 0px 0px" md-justify-content="center" />
 					<Link
 						href="/"
 						display="flex"
 						align-items="center"
 						text-decoration-line="initial"
-						font="500 38px/130% --fontFamily-googleMontserrat"
+						font="500 30px/130% --fontFamily-googleMontserrat"
 						color="#000000"
 						hover-color="#8F3E2C"
 						target="_blank"
 						lg-font="600 28px/130% --fontFamily-googleMontserrat"
 						sm-font="600 20px/130% --fontFamily-googleMontserrat"
+						flex-direction="column"
+						justify-content="center"
+						text-align="center"
+						md-margin="0px 0px 20px 0px"
 					>
 						<Icon
 							category="gi"
@@ -434,20 +450,38 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="team" background="#F8F8F8" padding="5px 0 5px 0">
+		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
-				<StackItem width="100%" display="flex" sm-align-items="center" sm-justify-content="center">
-					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
-					<Text font="700 35px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" sm-font="700 28px/130% --fontFamily-googleMontserrat" sm-text-align="center">
+				<StackItem width="100%" display="flex">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="flex-start"
+						sm-align-items="center"
+						sm-justify-content="center"
+					/>
+					<Text
+						font="700 35px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 0px 0px"
+						sm-font="700 28px/130% --fontFamily-googleMontserrat"
+						sm-text-align="center"
+						color="#ffffff"
+					>
 						Руководство и эксперты
 					</Text>
 					{"            "}
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="5px 0 5px 0" align-items="center" min-height="100vh">
+		<Section
+			background="#F8F8F8"
+			padding="5px 0 5px 0"
+			align-items="center"
+			min-height="100vh"
+			sm-padding="25px 0 25px 0"
+		>
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px" align-items="center" justify-content="center">
 				{"        "}
@@ -460,65 +494,80 @@ export default (() => {
 						flex-direction="column"
 						md-align-items="center"
 					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 0px 0px 0px"
+					<Link
+						href="/marina-bludyan"
+						text-decoration-line="initial"
+						color="#000000"
+						hover-transform="translateY(-10px);"
+						transition="-webkit-transition: all .3s;  transition: all .3s;"
 					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-marina.webp?v=2021-04-19T00:05:59.273Z"
-							width="100%"
-							max-width="450px"
-							border-radius="50px"
-							sm-width="80%"
-						/>
-						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
-							Марина Блудян
-						</Text>
-						<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-							Председатель Союза
-						</Text>
-					</Box>
+						<Box
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							flex-direction="column"
+							padding="0px 0px 0px 0px"
+						>
+							<Image
+								src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-marina.webp?v=2021-04-19T00:05:59.273Z"
+								width="100%"
+								max-width="450px"
+								border-radius="50px"
+								sm-width="80%"
+							/>
+							<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
+								Марина Блудян
+							</Text>
+							<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
+								Председатель Союза
+							</Text>
+						</Box>
+					</Link>
 					{"          "}
 				</StackItem>
 				<StackItem width="25%" display="flex" md-width="100%" margin="0px 20px 0px 20px">
 					<Override
 						slot="StackItemContent"
-						align-items="flex-start"
+						align-items="flex-end"
 						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
 						md-align-items="center"
 					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 0px 0px 0px"
+					<Link
+						href="/marina-bludyan"
+						text-decoration-line="initial"
+						color="#000000"
+						hover-transform="translateY(-10px);"
+						transition="-webkit-transition: all .3s;  transition: all .3s;"
 					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-artur.webp?v=2021-04-19T00:05:54.037Z"
-							width="100%"
-							max-width="450px"
-							border-radius="50px"
-							sm-width="80%"
-						/>
-						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
-							Артур Восканян
-							<br />
-						</Text>
-						<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-							Покерный эксперт
-						</Text>
-					</Box>
+						<Box
+							display="flex"
+							align-items="center"
+							justify-content="center"
+							flex-direction="column"
+							padding="0px 0px 0px 0px"
+						>
+							<Image
+								src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-artur.webp?v=2021-04-19T00:05:54.037Z"
+								width="100%"
+								max-width="450px"
+								border-radius="50px"
+								sm-width="80%"
+							/>
+							<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
+								Артур Восканян
+							</Text>
+							<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
+								Покерный эксперт
+							</Text>
+						</Box>
+					</Link>
 					{"          "}
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="event" background="#F8F8F8" padding="5px 0 5px 0">
+		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -530,17 +579,23 @@ export default (() => {
 						sm-align-items="center"
 						sm-justify-content="center"
 					/>
-					<Text font="700 35px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" sm-font="700 28px/130% --fontFamily-googleMontserrat" sm-text-align="center">
+					<Text
+						font="700 35px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 0px 0px"
+						sm-font="700 28px/130% --fontFamily-googleMontserrat"
+						sm-text-align="center"
+						color="#ffffff"
+					>
 						События
 					</Text>
 					{"            "}
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="80px 0 80px 0" align-items="center">
+		<Section background="#F8F8F8" padding="30px 0 40px 0" align-items="center">
 			<Override slot="SectionContent" width="95%" max-width="none" />
 			<Stack margin="0px 0px 0px 0px" flex-direction="row" align-items="center" justify-content="center">
-				<StackItem width="33.33%">
+				<StackItem width="33.33%" md-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						align-items="center"
@@ -549,7 +604,7 @@ export default (() => {
 						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
 						background="#ffffff"
 						padding="0px 0px 10px 0px"
-						border-radius="12px"
+						border-radius="6px"
 					/>
 					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
 					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
@@ -559,7 +614,7 @@ export default (() => {
 						href="#"
 						text-decoration-line="initial"
 						color="#ffffff"
-						background="#000000"
+						background="#001A51"
 						padding="13px 20px 13px 20px"
 						border-radius="40px"
 						font="500 18px/130% --fontFamily-googleMontserrat"
@@ -574,7 +629,7 @@ export default (() => {
 						Подробнее
 					</Link>
 				</StackItem>
-				<StackItem width="33.33%">
+				<StackItem width="33.33%" md-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						align-items="center"
@@ -583,7 +638,7 @@ export default (() => {
 						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
 						background="#ffffff"
 						padding="0px 0px 10px 0px"
-						border-radius="12px"
+						border-radius="6px"
 					/>
 					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
 					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
@@ -593,7 +648,7 @@ export default (() => {
 						href="#"
 						text-decoration-line="initial"
 						color="#ffffff"
-						background="#000000"
+						background="#001A51"
 						padding="13px 20px 13px 20px"
 						border-radius="40px"
 						font="500 18px/130% --fontFamily-googleMontserrat"
@@ -608,7 +663,7 @@ export default (() => {
 						Подробнее
 					</Link>
 				</StackItem>
-				<StackItem width="33.33%">
+				<StackItem width="33.33%" md-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						align-items="center"
@@ -617,7 +672,7 @@ export default (() => {
 						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
 						background="#ffffff"
 						padding="0px 0px 10px 0px"
-						border-radius="12px"
+						border-radius="6px"
 					/>
 					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
 					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
@@ -627,7 +682,109 @@ export default (() => {
 						href="#"
 						text-decoration-line="initial"
 						color="#ffffff"
-						background="#000000"
+						background="#001A51"
+						padding="13px 20px 13px 20px"
+						border-radius="40px"
+						font="500 18px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 20px 0px"
+						hover-color="#000000"
+						hover-background="#F8F8F8"
+						border-width="1px"
+						border-style="solid"
+						border-color="#000000"
+						transition="background-color 0.3s ease 0s"
+					>
+						Подробнее
+					</Link>
+				</StackItem>
+				<StackItem width="33.33%" md-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						flex-direction="column"
+						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+						background="#ffffff"
+						padding="0px 0px 10px 0px"
+						border-radius="6px"
+					/>
+					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
+					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
+						EPT SOCHI
+					</Text>
+					<Link
+						href="#"
+						text-decoration-line="initial"
+						color="#ffffff"
+						background="#001A51"
+						padding="13px 20px 13px 20px"
+						border-radius="40px"
+						font="500 18px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 20px 0px"
+						hover-color="#000000"
+						hover-background="#F8F8F8"
+						border-width="1px"
+						border-style="solid"
+						border-color="#000000"
+						transition="background-color 0.3s ease 0s"
+					>
+						Подробнее
+					</Link>
+				</StackItem>
+				<StackItem width="33.33%" md-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						flex-direction="column"
+						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+						background="#ffffff"
+						padding="0px 0px 10px 0px"
+						border-radius="6px"
+					/>
+					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
+					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
+						EPT SOCHI
+					</Text>
+					<Link
+						href="#"
+						text-decoration-line="initial"
+						color="#ffffff"
+						background="#001A51"
+						padding="13px 20px 13px 20px"
+						border-radius="40px"
+						font="500 18px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 20px 0px"
+						hover-color="#000000"
+						hover-background="#F8F8F8"
+						border-width="1px"
+						border-style="solid"
+						border-color="#000000"
+						transition="background-color 0.3s ease 0s"
+					>
+						Подробнее
+					</Link>
+				</StackItem>
+				<StackItem width="33.33%" md-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						flex-direction="column"
+						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+						background="#ffffff"
+						padding="0px 0px 10px 0px"
+						border-radius="6px"
+					/>
+					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
+					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
+						EPT SOCHI
+					</Text>
+					<Link
+						href="#"
+						text-decoration-line="initial"
+						color="#ffffff"
+						background="#001A51"
 						padding="13px 20px 13px 20px"
 						border-radius="40px"
 						font="500 18px/130% --fontFamily-googleMontserrat"
@@ -648,22 +805,24 @@ export default (() => {
 					color="#ffffff"
 					background="#000000"
 					padding="16px 28px 17px 28px"
-					border-radius="40px"
+					border-radius="6px"
 					font="500 18px/130% --fontFamily-googleMontserrat"
-					margin="40px 0px 0px 0px"
+					margin="0px 16px 0px 16px"
 					hover-color="#000000"
 					hover-background="#F8F8F8"
 					border-width="1px"
 					border-style="solid"
 					border-color="#000000"
 					transition="background-color 0.3s ease 0s"
+					width="100%"
+					text-align="center"
 				>
 					Перейти к архиву
 				</Link>
 				{"        "}
 			</Stack>
 		</Section>
-		<Section id="partners" background="#F8F8F8" padding="5px 0 5px 0">
+		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -675,7 +834,13 @@ export default (() => {
 						sm-align-items="center"
 						sm-justify-content="center"
 					/>
-					<Text font="700 35px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" sm-font="700 28px/130% --fontFamily-googleMontserrat" sm-text-align="center">
+					<Text
+						font="700 35px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 0px 0px"
+						sm-font="700 28px/130% --fontFamily-googleMontserrat"
+						sm-text-align="center"
+						color="#ffffff"
+					>
 						Партнеры
 					</Text>
 					{"            "}
@@ -684,7 +849,7 @@ export default (() => {
 		</Section>
 		<Section
 			background="#F8F8F8"
-			padding="100px 0 100px 0"
+			padding="100px 0 110px 0"
 			align-items="center"
 			lg-padding="70px 0 70px 0"
 			md-padding="50px 0 50px 0"
@@ -728,7 +893,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="partners" background="#F8F8F8" padding="5px 0 5px 0">
+		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -740,67 +905,102 @@ export default (() => {
 						sm-align-items="center"
 						sm-justify-content="center"
 					/>
-					<Text font="700 35px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" sm-font="700 28px/130% --fontFamily-googleMontserrat" sm-text-align="center">
+					<Text
+						font="700 35px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 0px 0px"
+						sm-font="700 28px/130% --fontFamily-googleMontserrat"
+						sm-text-align="center"
+						color="#ffffff"
+					>
 						Стать партнером
 					</Text>
 					{"            "}
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="110px 0 110px 0">
-			<Override slot="SectionContent" align-items="center" justify-content="center" />
-			<Formspree
-				errorMessage="Something went wrong"
-				completeText="Success"
-				endpoint="meqvonkd"
-				display="flex"
-				flex-direction="column"
-				width="60%"
-				background="#ffffff"
-				padding="50px 80px 50px 80px"
-				border-radius="8px"
-				box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
-				border-width="12px"
-			>
-				<Input
-					name="Имя"
-					placeholder="Имя"
-					margin-right="4px"
-					margin="0px 4px 20px 0px"
-					width="100%"
-					type="text"
-					border-width="1px"
-					padding="9px 16px 9px 16px"
-				/>
-				<Input
-					name="email"
-					placeholder="Email"
-					margin-right="4px"
-					margin="0px 4px 20px 0px"
-					width="100%"
-					border-width="1px"
-					padding="9px 16px 9px 16px"
-				/>
-				<Input
-					name="Категория"
-					placeholder="Категория"
-					margin-right="4px"
-					margin="0px 4px 20px 0px"
-					width="100%"
-					type="text"
-					border-width="1px"
-					padding="9px 16px 9px 16px"
-				/>
-				<Button background="#000000" font="500 19px/130% --fontFamily-googleMontserrat" width="100%">
-					Отправить
-				</Button>
-			</Formspree>
+		<Section background="#F8F8F8" padding="0px 0 0px 0">
+			<Override
+				slot="SectionContent"
+				align-items="center"
+				justify-content="center"
+				width="100%"
+				max-width="none"
+			/>
+			<Stack width="100%" margin="0px 0px 0px 0px" gap="0px">
+				{"    "}
+				<StackItem width="100%" display="flex">
+					<Formspree
+						errorMessage="Something went wrong"
+						completeText="Success"
+						endpoint="meqvonkd"
+						display="flex"
+						flex-direction="column"
+						width="100%"
+						background="#000000"
+						padding="50px 80px 50px 80px"
+						border-radius="0px"
+						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+						border-width="12px"
+					>
+						<Input
+							name="Имя"
+							placeholder="Имя"
+							margin="0px 4px 20px 0px"
+							width="100%"
+							type="text"
+							border-width="1px"
+							padding="9px 16px 9px 16px"
+							placeholder-color="#000000"
+						/>
+						<Input
+							name="email"
+							placeholder="Email"
+							margin="0px 4px 20px 0px"
+							width="100%"
+							border-width="1px"
+							padding="9px 16px 9px 16px"
+							placeholder-color="#000000"
+						/>
+						<Input
+							name="Категория"
+							placeholder="Категория"
+							margin="0px 4px 20px 0px"
+							width="100%"
+							type="text"
+							border-width="1px"
+							padding="9px 16px 9px 16px"
+							placeholder-color="#000000"
+						/>
+						<Button
+							background="#ffffff"
+							font="500 19px/130% --fontFamily-googleMontserrat"
+							width="100%"
+							color="#000000"
+							hover-color="#ffffff"
+							hover-background="#000000"
+							border-width="1px"
+							border-style="solid"
+							border-color="#ffffff"
+						>
+							Отправить
+						</Button>
+					</Formspree>
+					{"            "}
+				</StackItem>
+				{"    "}
+			</Stack>
 		</Section>
 		<Section background="#000000" padding="5px 0 5px 0" align-items="center">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
-				<StackItem width="50%" display="flex">
+				<StackItem
+					width="50%"
+					display="flex"
+					sm-width="100%"
+					sm-align-items="center"
+					sm-justify-content="center"
+				>
 					<Override
 						slot="StackItemContent"
 						align-items="flex-start"
@@ -808,6 +1008,7 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
 						color="#ffffff"
+						sm-align-items="center"
 					/>
 					<Text font="700 44px/130% --fontFamily-googleMontserrat" color="#ffffff" margin="0px 0px 0px 0px">
 						18+
@@ -817,7 +1018,13 @@ export default (() => {
 					</Text>
 					{"          "}
 				</StackItem>
-				<StackItem width="50%" display="flex">
+				<StackItem
+					width="50%"
+					display="flex"
+					sm-width="100%"
+					sm-align-items="center"
+					sm-justify-content="center"
+				>
 					<Override
 						slot="StackItemContent"
 						align-items="flex-end"
@@ -825,6 +1032,7 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
 						color="#ffffff"
+						sm-align-items="center"
 					/>
 					<SocialMedia
 						facebook="https://www.facebook.com/quarklyapp/"

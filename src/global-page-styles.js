@@ -5,7 +5,9 @@ import { createGlobalStyle } from "styled-components";
 const pageStyles = {
     "404": {},
     "index": {},
-    "home": {}
+    "home": {},
+    "marina-bludyan": {},
+    "turnirnyj-poker": {}
 };
 
 const PageStyles = createGlobalStyle`
