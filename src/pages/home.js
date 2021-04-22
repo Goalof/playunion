@@ -1,11 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Strong, Text, Icon } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Strong, Text, Icon, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Section, GoogleMap } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack, Section, Formspree, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
-import { GiPokerHand, GiWhiteTower, GiHorseshoe, GiCrossedAxes } from "react-icons/gi";
+import { GiPokerHand, GiHorseshoe, GiCrossedAxes } from "react-icons/gi";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"home"} />
@@ -213,7 +213,7 @@ export default (() => {
 								sm-font="600 20px --fontFamily-googleMontserrat"
 								sm-text-align="center"
 							>
-								Мероприятия
+								События
 							</Link>
 							<Link
 								href="#partners"
@@ -251,7 +251,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="115px 0 5px 0">
+		<Section background="#F8F8F8" padding="100px 0 5px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -262,7 +262,7 @@ export default (() => {
 						showText={false}
 						showLink={false}
 						showArrows
-						slidesProp="3"
+						slidesProp="2"
 						aspectRatio="auto"
 						width="100%"
 						min-height="480px"
@@ -270,7 +270,7 @@ export default (() => {
 						md-min-height="230px"
 						sm-min-height="120px"
 						showDots={false}
-						fullHd-min-height="550px"
+						fullHd-min-height="600px"
 					>
 						<Override
 							slot="Slide Image"
@@ -281,9 +281,9 @@ export default (() => {
 							lg-min-height="280px"
 							md-min-height="230px"
 							sm-min-height="120px"
-							fullHd-min-height="550px"
+							fullHd-min-height="600px"
 						/>
-						<Override slot="Slide Image 1" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon1.png?v=2021-04-18T22:45:37.405Z" />
+						<Override slot="Slide Image 1" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" />
 						<Override
 							slot="Point Icon"
 							border-width="1px"
@@ -296,7 +296,7 @@ export default (() => {
 							height="10px"
 						/>
 						<Override slot="Point Icon :active" color="#000000" />
-						<Override slot="Slide Image 2" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon2.png?v=2021-04-18T22:46:40.293Z" />
+						<Override slot="Slide Image 2" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" />
 						<Override slot="Slide Image 3" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon3.jpg?v=2021-04-20T11:47:52.035Z" />
 						<Override slot="Slide Image 4" object-fit="contain" object-position="0% 0%" />
 						<Override slot="Slide" width="100%" />
@@ -355,7 +355,7 @@ export default (() => {
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
-				<StackItem width="50%" display="flex" md-width="100%">
+				<StackItem width="33.33%" display="flex" md-width="100%">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" padding="0px 0px 0px 0px" />
 					<Link
 						href="https://greenpeace.ru/"
@@ -381,35 +381,10 @@ export default (() => {
 					</Link>
 					{"          "}
 				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override slot="StackItemContent" justify-content="flex-start" padding="0px 0px 0px 0px" />
-					<Link
-						href="https://greenpeace.ru/"
-						display="flex"
-						align-items="center"
-						text-decoration-line="initial"
-						font="500 38px/130% --fontFamily-googleMontserrat"
-						color="#000000"
-						hover-color="#8F3E2C"
-						target="_blank"
-						lg-font="600 28px/130% --fontFamily-googleMontserrat"
-						sm-font="600 20px/130% --fontFamily-googleMontserrat"
-					>
-						<Icon
-							category="gi"
-							icon={GiWhiteTower}
-							color="inherit"
-							size="110px"
-							padding="15px 15px 15px 15px"
-						/>
-						{"  \n\t\t\t\t"}Сильные фигуры
-					</Link>
-					{"          "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
+				<StackItem width="33.33%" display="flex" md-width="100%">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" padding="0px 0px 0px 0px" />
 					<Link
-						href="https://greenpeace.ru/"
+						href="/"
 						display="flex"
 						align-items="center"
 						text-decoration-line="initial"
@@ -432,10 +407,10 @@ export default (() => {
 					</Link>
 					{"          "}
 				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
+				<StackItem width="33.33%" display="flex" md-width="100%">
 					<Override slot="StackItemContent" justify-content="flex-start" padding="0px 0px 0px 0px" />
 					<Link
-						href="https://greenpeace.ru/"
+						href="/"
 						display="flex"
 						align-items="center"
 						text-decoration-line="initial"
@@ -474,41 +449,9 @@ export default (() => {
 		</Section>
 		<Section background="#F8F8F8" padding="5px 0 5px 0" align-items="center" min-height="100vh">
 			<Override slot="SectionContent" max-width="none" width="95%" />
-			<Stack margin="0px 0px 0px 0px">
+			<Stack margin="0px 0px 0px 0px" align-items="center" justify-content="center">
 				{"        "}
-				<StackItem width="25%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="flex-end"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-						md-align-items="center"
-					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 0px 0px 0px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-marina.webp?v=2021-04-19T00:05:59.273Z"
-							width="100%"
-							border-radius="50px"
-							sm-width="80%"
-							max-width="450px"
-						/>
-						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
-							Марина Блудян
-						</Text>
-						<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-							Председателя Союза
-						</Text>
-					</Box>
-					{"          "}
-				</StackItem>
-				<StackItem width="25%" display="flex" md-width="100%">
+				<StackItem width="25%" display="flex" md-width="100%" margin="0px 20px 0px 20px">
 					<Override
 						slot="StackItemContent"
 						align-items="flex-end"
@@ -535,45 +478,12 @@ export default (() => {
 							Марина Блудян
 						</Text>
 						<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-							Председателя Союза
+							Председатель Союза
 						</Text>
 					</Box>
 					{"          "}
 				</StackItem>
-				<StackItem width="25%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="flex-start"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-						md-align-items="center"
-					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 0px 0px 0px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-artur.webp?v=2021-04-19T00:05:54.037Z"
-							width="100%"
-							max-width="450px"
-							border-radius="50px"
-							sm-width="80%"
-						/>
-						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
-							Артур Восканян
-							<br />
-						</Text>
-						<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-							Покерный эксперт
-						</Text>
-					</Box>
-					{"          "}
-				</StackItem>
-				<StackItem width="25%" display="flex" md-width="100%">
+				<StackItem width="25%" display="flex" md-width="100%" margin="0px 20px 0px 20px">
 					<Override
 						slot="StackItemContent"
 						align-items="flex-start"
@@ -621,16 +531,135 @@ export default (() => {
 						sm-justify-content="center"
 					/>
 					<Text font="700 35px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" sm-font="700 28px/130% --fontFamily-googleMontserrat" sm-text-align="center">
-						Мероприятия
-						<br />
+						События
 					</Text>
 					{"            "}
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="5px 0 5px 0" align-items="center" min-height="100vh">
-			<Override slot="SectionContent" max-width="none" width="95%" />
-			<Stack margin="0px 0px 0px 0px">
+		<Section background="#F8F8F8" padding="80px 0 80px 0" align-items="center">
+			<Override slot="SectionContent" width="95%" max-width="none" />
+			<Stack margin="0px 0px 0px 0px" flex-direction="row" align-items="center" justify-content="center">
+				<StackItem width="33.33%">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						flex-direction="column"
+						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+						background="#ffffff"
+						padding="0px 0px 10px 0px"
+						border-radius="12px"
+					/>
+					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
+					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
+						EPT SOCHI
+					</Text>
+					<Link
+						href="#"
+						text-decoration-line="initial"
+						color="#ffffff"
+						background="#000000"
+						padding="13px 20px 13px 20px"
+						border-radius="40px"
+						font="500 18px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 20px 0px"
+						hover-color="#000000"
+						hover-background="#F8F8F8"
+						border-width="1px"
+						border-style="solid"
+						border-color="#000000"
+						transition="background-color 0.3s ease 0s"
+					>
+						Подробнее
+					</Link>
+				</StackItem>
+				<StackItem width="33.33%">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						flex-direction="column"
+						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+						background="#ffffff"
+						padding="0px 0px 10px 0px"
+						border-radius="12px"
+					/>
+					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
+					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
+						EPT SOCHI
+					</Text>
+					<Link
+						href="#"
+						text-decoration-line="initial"
+						color="#ffffff"
+						background="#000000"
+						padding="13px 20px 13px 20px"
+						border-radius="40px"
+						font="500 18px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 20px 0px"
+						hover-color="#000000"
+						hover-background="#F8F8F8"
+						border-width="1px"
+						border-style="solid"
+						border-color="#000000"
+						transition="background-color 0.3s ease 0s"
+					>
+						Подробнее
+					</Link>
+				</StackItem>
+				<StackItem width="33.33%">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						flex-direction="column"
+						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+						background="#ffffff"
+						padding="0px 0px 10px 0px"
+						border-radius="12px"
+					/>
+					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
+					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
+						EPT SOCHI
+					</Text>
+					<Link
+						href="#"
+						text-decoration-line="initial"
+						color="#ffffff"
+						background="#000000"
+						padding="13px 20px 13px 20px"
+						border-radius="40px"
+						font="500 18px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 20px 0px"
+						hover-color="#000000"
+						hover-background="#F8F8F8"
+						border-width="1px"
+						border-style="solid"
+						border-color="#000000"
+						transition="background-color 0.3s ease 0s"
+					>
+						Подробнее
+					</Link>
+				</StackItem>
+				<Link
+					href="#"
+					text-decoration-line="initial"
+					color="#ffffff"
+					background="#000000"
+					padding="16px 28px 17px 28px"
+					border-radius="40px"
+					font="500 18px/130% --fontFamily-googleMontserrat"
+					margin="40px 0px 0px 0px"
+					hover-color="#000000"
+					hover-background="#F8F8F8"
+					border-width="1px"
+					border-style="solid"
+					border-color="#000000"
+					transition="background-color 0.3s ease 0s"
+				>
+					Перейти к архиву
+				</Link>
 				{"        "}
 			</Stack>
 		</Section>
@@ -661,12 +690,12 @@ export default (() => {
 			md-padding="50px 0 50px 0"
 		>
 			<Override slot="SectionContent" max-width="none" width="95%" />
-			<Stack margin="0px 0px 0px 0px">
+			<Stack margin="0px 0px 0px 0px" align-items="center" justify-content="center">
 				{"        "}
 				<StackItem
 					width="25%"
 					display="flex"
-					margin="0px 0px 40px 0px"
+					margin="0px 0px 0px 0px"
 					lg-width="50%"
 					lg-margin="0 0 20px 0"
 				>
@@ -684,220 +713,22 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 20px 0px 20px"
 					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/pokertour.png?v=2021-04-19T00:14:33.230Z"
-							width="100%"
-							max-width="450px"
-							filter="grayscale(100%)"
-							transition="all .3s"
-							hover-filter="grayscale(0%)"
-						/>
-					</Box>
-					{"          "}
-				</StackItem>
-				<StackItem
-					width="25%"
-					display="flex"
-					margin="0px 0px 40px 0px"
-					lg-width="50%"
-					lg-margin="0 0 20px 0"
-				>
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 20px 0px 20px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/pokertour.png?v=2021-04-19T00:14:33.230Z"
-							width="100%"
-							max-width="450px"
-							filter="grayscale(100%)"
-							transition="all .3s"
-							hover-filter="grayscale(0%)"
-						/>
-					</Box>
-					{"          "}
-				</StackItem>
-				<StackItem
-					width="25%"
-					display="flex"
-					margin="0px 0px 40px 0px"
-					lg-width="50%"
-					lg-margin="0 0 20px 0"
-				>
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 20px 0px 20px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/pokertour.png?v=2021-04-19T00:14:33.230Z"
-							width="100%"
-							max-width="450px"
-							filter="grayscale(100%)"
-							transition="all .3s"
-							hover-filter="grayscale(0%)"
-						/>
-					</Box>
-					{"          "}
-				</StackItem>
-				<StackItem
-					width="25%"
-					display="flex"
-					margin="0px 0px 40px 0px"
-					lg-width="50%"
-					lg-margin="0 0 20px 0"
-				>
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 20px 0px 20px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/pokertour.png?v=2021-04-19T00:14:33.230Z"
-							width="100%"
-							max-width="450px"
-							filter="grayscale(100%)"
-							transition="all .3s"
-							hover-filter="grayscale(0%)"
-						/>
-					</Box>
-					{"          "}
-				</StackItem>
-				<StackItem width="25%" display="flex" lg-width="50%" lg-margin="0 0 20px 0">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 20px 0px 20px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/pokertour.png?v=2021-04-19T00:14:33.230Z"
-							width="100%"
-							max-width="450px"
-							filter="grayscale(100%)"
-							transition="all .3s"
-							hover-filter="grayscale(0%)"
-						/>
-					</Box>
-					{"          "}
-				</StackItem>
-				<StackItem width="25%" display="flex" lg-width="50%" lg-margin="0 0 20px 0">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 20px 0px 20px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/pokertour.png?v=2021-04-19T00:14:33.230Z"
-							width="100%"
-							max-width="450px"
-							filter="grayscale(100%)"
-							transition="all .3s"
-							hover-filter="grayscale(0%)"
-						/>
-					</Box>
-					{"          "}
-				</StackItem>
-				<StackItem width="25%" display="flex" lg-width="50%" lg-margin="0 0 20px 0">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 20px 0px 20px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/pokertour.png?v=2021-04-19T00:14:33.230Z"
-							width="100%"
-							max-width="450px"
-							filter="grayscale(100%)"
-							transition="all .3s"
-							hover-filter="grayscale(0%)"
-						/>
-					</Box>
-					{"          "}
-				</StackItem>
-				<StackItem width="25%" display="flex" lg-width="50%" lg-margin="0 0 20px 0">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-					/>
-					<Box
-						display="flex"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 20px 0px 20px"
-					>
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/pokertour.png?v=2021-04-19T00:14:33.230Z"
-							width="100%"
-							max-width="450px"
-							filter="grayscale(100%)"
-							transition="all .3s"
-							hover-filter="grayscale(0%)"
-						/>
+						<Link href="https://www.pokerstarslive.com/ept/open-sochi/">
+							<Image
+								src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/pokertour.png?v=2021-04-19T00:14:33.230Z"
+								width="100%"
+								max-width="450px"
+								filter="grayscale(100%)"
+								transition="all .3s"
+								hover-filter="grayscale(0%)"
+							/>
+						</Link>
 					</Box>
 					{"          "}
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="contacts" background="#F8F8F8" padding="5px 0 5px 0">
+		<Section id="partners" background="#F8F8F8" padding="5px 0 5px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -910,75 +741,66 @@ export default (() => {
 						sm-justify-content="center"
 					/>
 					<Text font="700 35px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" sm-font="700 28px/130% --fontFamily-googleMontserrat" sm-text-align="center">
-						Контакты
+						Стать партнером
 					</Text>
 					{"            "}
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section
-			background="#F8F8F8"
-			padding="100px 0 100px 0"
-			align-items="center"
-			lg-padding="70px 0 70px 0"
-			md-padding="50px 0 50px 0"
-		>
-			<Override slot="SectionContent" max-width="none" width="95%" />
-			<Stack margin="0px 0px 0px 0px">
-				{"        "}
-				<StackItem width="50%" display="flex" margin="0px 0px 0px 0px" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-					/>
-					<GoogleMap query="Россия, Московская область, Павловский посад ул, Городковская, д. 73А" />
-					{"          "}
-				</StackItem>
-				<StackItem width="50%" display="flex" margin="0px 0px 0px 0px" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="flex-start"
-						justify-content="flex-start"
-						padding="0px 0px 0px 0px"
-						flex-direction="row"
-						lg-flex-direction="column"
-					/>
-					<Box display="flex" width="50%" lg-width="100%">
-						<Text margin="0px 0px 0px 0px" font="500 25px/130% --fontFamily-googleMontserrat">
-							Россия,
-							<br />
-							Московская область, Павловский посад ул,
-							<br />
-							Городковская, д. 73А{" "}
-							<br />
-							корп. 12 этаж / каб. 1/20
-						</Text>
-					</Box>
-					<Box
-						display="flex"
-						width="50%"
-						align-items="flex-start"
-						justify-content="flex-end"
-						lg-width="100%"
-						lg-justify-content="flex-start"
-						lg-margin="20px 0px 0px 0px"
-					>
-						<Text margin="0px 0px 0px 0px" font="500 25px/130% --fontFamily-googleMontserrat">
-							hey@playunion.ru
-						</Text>
-					</Box>
-					{"          "}
-				</StackItem>
-			</Stack>
+		<Section background="#F8F8F8" padding="110px 0 110px 0">
+			<Override slot="SectionContent" align-items="center" justify-content="center" />
+			<Formspree
+				errorMessage="Something went wrong"
+				completeText="Success"
+				endpoint="meqvonkd"
+				display="flex"
+				flex-direction="column"
+				width="60%"
+				background="#ffffff"
+				padding="50px 80px 50px 80px"
+				border-radius="8px"
+				box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+				border-width="12px"
+			>
+				<Input
+					name="Имя"
+					placeholder="Имя"
+					margin-right="4px"
+					margin="0px 4px 20px 0px"
+					width="100%"
+					type="text"
+					border-width="1px"
+					padding="9px 16px 9px 16px"
+				/>
+				<Input
+					name="email"
+					placeholder="Email"
+					margin-right="4px"
+					margin="0px 4px 20px 0px"
+					width="100%"
+					border-width="1px"
+					padding="9px 16px 9px 16px"
+				/>
+				<Input
+					name="Категория"
+					placeholder="Категория"
+					margin-right="4px"
+					margin="0px 4px 20px 0px"
+					width="100%"
+					type="text"
+					border-width="1px"
+					padding="9px 16px 9px 16px"
+				/>
+				<Button background="#000000" font="500 19px/130% --fontFamily-googleMontserrat" width="100%">
+					Отправить
+				</Button>
+			</Formspree>
 		</Section>
 		<Section background="#000000" padding="5px 0 5px 0" align-items="center">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
-				<StackItem width="100%" display="flex">
+				<StackItem width="50%" display="flex">
 					<Override
 						slot="StackItemContent"
 						align-items="flex-start"
@@ -990,6 +812,29 @@ export default (() => {
 					<Text font="700 44px/130% --fontFamily-googleMontserrat" color="#ffffff" margin="0px 0px 0px 0px">
 						18+
 					</Text>
+					<Text font="400 14px/130% --fontFamily-googleMontserrat" margin="16px 0px 0px 0px">
+						© 2021 Союз участников интеллектуальных игр
+					</Text>
+					{"          "}
+				</StackItem>
+				<StackItem width="50%" display="flex">
+					<Override
+						slot="StackItemContent"
+						align-items="flex-end"
+						justify-content="center"
+						padding="0px 0px 0px 0px"
+						flex-direction="column"
+						color="#ffffff"
+					/>
+					<SocialMedia
+						facebook="https://www.facebook.com/quarklyapp/"
+						twitter="https://twitter.com/quarklyapp"
+						youtube="https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw"
+						vkontakte="https://vk.com/quarklyapp"
+						telegram="https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ"
+					>
+						<Override slot="link" color="#ffffff" background="rgba(237, 242, 246, 0)" />
+					</SocialMedia>
 					{"          "}
 				</StackItem>
 			</Stack>
