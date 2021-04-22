@@ -986,7 +986,6 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Components.EmbedHTML />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
