@@ -270,6 +270,7 @@ export default (() => {
 						md-min-height="230px"
 						sm-min-height="120px"
 						showDots={false}
+						fullHd-min-height="550px"
 					>
 						<Override
 							slot="Slide Image"
@@ -280,6 +281,7 @@ export default (() => {
 							lg-min-height="280px"
 							md-min-height="230px"
 							sm-min-height="120px"
+							fullHd-min-height="550px"
 						/>
 						<Override slot="Slide Image 1" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon1.png?v=2021-04-18T22:45:37.405Z" />
 						<Override
@@ -490,7 +492,13 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-marina.webp?v=2021-04-19T00:05:59.273Z" width="100%" border-radius="50px" sm-width="80%" />
+						<Image
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-marina.webp?v=2021-04-19T00:05:59.273Z"
+							width="100%"
+							border-radius="50px"
+							sm-width="80%"
+							max-width="450px"
+						/>
 						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
 							Марина Блудян
 						</Text>

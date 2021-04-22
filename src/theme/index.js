@@ -18,6 +18,12 @@ export default {
 				"type": "max-width",
 				"value": 992
 			}
+		],
+		"fullHd": [
+			{
+				"type": "min-width",
+				"value": "1800"
+			}
 		]
 	},
 	"color": {
