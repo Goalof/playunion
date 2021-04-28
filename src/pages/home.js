@@ -451,27 +451,6 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="95px 0 125px 0" align-items="center">
-			<Override slot="SectionContent" max-width="none" width="95%" />
-			<Stack margin="0px 0px 0px 0px">
-				{"        "}
-				<StackItem width="33.33%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="flex-end"
-						padding="0px 0px 0px 0px"
-						md-justify-content="center"
-					/>
-					<Components.CardFlip>
-						<Text>
-							Some text
-						</Text>
-					</Components.CardFlip>
-					{"          "}
-				</StackItem>
-			</Stack>
-		</Section>
 		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
