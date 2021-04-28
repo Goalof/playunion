@@ -9,6 +9,7 @@ export default {
 				"6079f3c67c7120001f1ee28c",
 				"6079f4e292d19d001eee6d12",
 				"6081a651951877001f1e32c6",
+				"6086ea915ae4cf0017443af2",
 				"6081aab923a143001e08fb32"
 			]
 		},
@@ -42,6 +43,14 @@ export default {
 			"id": "6081aab923a143001e08fb32",
 			"pageUrl": "turnirnyj-poker",
 			"name": "Турнирный покер"
+		},
+		"6086ea915ae4cf0017443af2": {
+			"id": "6086ea915ae4cf0017443af2",
+			"pageUrl": "artur-voskanyan",
+			"name": "Артур Восканян",
+			"seo": {
+				"title": ""
+			}
 		}
 	},
 	"mode": "production",

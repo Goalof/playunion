@@ -7,7 +7,7 @@ import { RawHtml, Override, StackItem, Stack, Section, Formspree, SocialMedia } 
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"turnirnyj-poker"} />
+		<GlobalQuarklyPageStyles pageUrl={"artur-voskanyan"} />
 		<Helmet>
 			<title>
 				Quarkly export
@@ -197,7 +197,7 @@ export default (() => {
 								sm-font="600 20px --fontFamily-googleMontserrat"
 								sm-text-align="center"
 							>
-								Состав союза
+								Руководство и эксперты
 							</Link>
 							<Link
 								href="#event"
@@ -250,13 +250,14 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="115px 0 45px 0" align-items="center">
+		<Section background="#F8F8F8" padding="145px 0 45px 0" align-items="center">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px" align-items="flex-start" justify-content="center">
 				{"        "}
-				<StackItem width="100%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+				<StackItem width="30%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
+						align-items="flex-start"
 						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
@@ -269,11 +270,17 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" width="100%" border-radius="6px" sm-width="80%" />
+						<Image
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-artur.webp?v=2021-04-19T00:05:54.037Z"
+							width="100%"
+							max-width="450px"
+							border-radius="6px"
+							sm-width="80%"
+						/>
 					</Box>
 					{"          "}
 				</StackItem>
-				<StackItem width="100%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+				<StackItem width="70%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
 						align-items="flex-start"
@@ -289,24 +296,67 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
-							<Strong>
-								О турнире
+						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 14px 0px" sm-text-align="center" text-align="center">
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Артур Восканян
 							</Strong>
 						</Text>
-						<Text font="italic 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 34px 0px">
-							г.Москва
+						<Text font="italic 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 30px 0px">
+							Турнирный покер{"\n\n"}
 						</Text>
-						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-							Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности способствует подготовки и реализации дальнейших направлений развития. Задача организации, в особенности же сложившаяся структура организации влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Равным образом сложившаяся структура организации требуют от нас анализа существенных финансовых и административных условий.
+						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+							Артур Восканян — основатель компании Poker Club Management, управляющий крупнейшим в России покерным клубом в Казино Сочи, игрок и самый популярный покерный блогер в российском Instagram (
+							<Link
+								href="https://www.instagram.com/artpoker/"
+								target="_blank"
+								text-decoration-line="initial"
+								color="#001A51"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								@artpoker
+							</Link>
+							).
 							<br />
 							<br />
-							Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности требуют определения и уточнения существенных финансовых и административных условий. Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют определения и уточнения системы обучения кадров, соответствует насущным потребностям. С другой стороны реализация намеченных плановых заданий влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.{" "}
+							Артур прошел путь от покерного дилера до вице-президента Федерации спортивного покера России.
+							<br />
+							<br />
+							В 2006 году создал компанию Poker Club Management, в первый год штат компании достиг 200 человек.
+							<br />
+							<br />
+							В настоящий момент Poker Club Management является ключевой компанией в индустрии покера Восточной Европы, организует крупнейшие покерные серии на территории СНГ.
+							<br />
+							<br />
+							{"\n"}С 2006 года компания Poker Club Management провела более 150 международных покерных серий, число уникальных игроков превышает 30000.
+							<br />
+							<br />
+							Помимо России, компания проводит чемпионаты в странах СНГ, Европы иКарибского бассейна, этапы World Poker Tour, European Poker Tour, World Series of Poker Circuit и многих других серий, в том числе и созданных самой компанией.
+							<br />
+							<br />
+							C 2012 года Артур Восканян представляет СНГ в международной Ассоциации турнирных директоров (Tournament Directors Association, США), которая занимается стандартизацией правил покера и покерных процедур.{"\n\n"}
+							<br />
+							{"\n\n"}
 						</Text>
 					</Box>
 					{"          "}
 				</StackItem>
 			</Stack>
+			<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
+				<br />
+				{"\n\n"}
+			</Text>
 		</Section>
 		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />

@@ -30,7 +30,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" />
 					{"        "}
 					<Image
-						src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/5.png?v=2021-04-18T22:22:31.873Z"
+						src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A1%D0%BE%D1%8E%D0%B7_%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%D0%98%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%98%D0%B3%D1%80_%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9.svg?v=2021-04-28T05:03:18.949Z"
 						width="100%"
 						height="auto"
 						max-height="115px"
@@ -198,7 +198,7 @@ export default (() => {
 								sm-text-align="center"
 								hover-color="#001A51"
 							>
-								Руководство и эксперты
+								Состав союза
 							</Link>
 							<Link
 								href="#event"
@@ -281,7 +281,7 @@ export default (() => {
 							height="10px"
 						/>
 						<Override slot="Point Icon :active" color="#000000" />
-						<Override slot="Slide Image 2" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" />
+						<Override slot="Slide Image 2" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/1400%D1%85410-01.png?v=2021-04-28T18:28:13.562Z" />
 						<Override slot="Slide Image 3" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon3.jpg?v=2021-04-20T11:47:52.035Z" />
 						<Override slot="Slide Image 4" object-fit="contain" object-position="0% 0%" />
 						<Override slot="Slide" width="100%" />
@@ -298,7 +298,7 @@ export default (() => {
 				<StackItem width="100%" display="flex">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					<Text
-						font="28px/130% --fontFamily-googleMontserrat"
+						font="28px/140% --fontFamily-googleMontserrat"
 						margin="20px 0px 60px 0px"
 						lg-font="27px/130% --fontFamily-googleMontserrat"
 						lg-margin="20px 0px 40px 0px"
@@ -310,8 +310,9 @@ export default (() => {
 						<Strong>
 							Cоюз Участников Интеллектуальных Игр
 						</Strong>
-						{" "}занимается равным образом постоянный количественный рост и сфера нашей активности требуют определения и уточнения существенных финансовых и административных условий. Таким образом укрепление и развитие структуры.
+						{" "}занимается равным образом постоянный количественный рост и сфера нашей активности требуют определения и уточнения существенных финансовых и административных условий. Таким образом укрепление и развитие структуры. Нужен текст, предлагаю вставить на то кол-во символов, которое нам будет достаточно по ощущениям, мы поставим в сайт и посмотрим как будет выглядеть. Далее скорректируем если потребуется (путем размера шрифта или сокращения кол-ва символов – так как движок сайта ресайзит под девайсы надо смотреть декстоп/мобайл как будет получаться).
 						<br />
+						{"\n\n"}
 					</Text>
 					{"            "}
 				</StackItem>
@@ -450,6 +451,27 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
+		<Section background="#F8F8F8" padding="95px 0 125px 0" align-items="center">
+			<Override slot="SectionContent" max-width="none" width="95%" />
+			<Stack margin="0px 0px 0px 0px">
+				{"        "}
+				<StackItem width="33.33%" display="flex" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="flex-end"
+						padding="0px 0px 0px 0px"
+						md-justify-content="center"
+					/>
+					<Components.CardFlip>
+						<Text>
+							Some text
+						</Text>
+					</Components.CardFlip>
+					{"          "}
+				</StackItem>
+			</Stack>
+		</Section>
 		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
@@ -469,7 +491,7 @@ export default (() => {
 						sm-text-align="center"
 						color="#ffffff"
 					>
-						Руководство и эксперты
+						Состав союза
 					</Text>
 					{"            "}
 				</StackItem>
@@ -519,7 +541,7 @@ export default (() => {
 								Марина Блудян
 							</Text>
 							<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-								Председатель Союза
+								Президент Союза
 							</Text>
 						</Box>
 					</Link>
@@ -535,7 +557,7 @@ export default (() => {
 						md-align-items="center"
 					/>
 					<Link
-						href="/marina-bludyan"
+						href="/artur-voskanyan"
 						text-decoration-line="initial"
 						color="#000000"
 						hover-transform="translateY(-10px);"
@@ -559,7 +581,7 @@ export default (() => {
 								Артур Восканян
 							</Text>
 							<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-								Покерный эксперт
+								Турнирный покер{"\n\n"}
 							</Text>
 						</Box>
 					</Link>
@@ -608,7 +630,7 @@ export default (() => {
 					/>
 					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
 					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
-						EPT SOCHI
+						EPT Sochi March 2021{"\n\n"}
 					</Text>
 					<Link
 						href="#"
@@ -642,7 +664,7 @@ export default (() => {
 					/>
 					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
 					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
-						EPT SOCHI
+						EPT Sochi March 2021{"\n\n"}
 					</Text>
 					<Link
 						href="#"
@@ -676,109 +698,7 @@ export default (() => {
 					/>
 					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
 					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
-						EPT SOCHI
-					</Text>
-					<Link
-						href="#"
-						text-decoration-line="initial"
-						color="#ffffff"
-						background="#001A51"
-						padding="13px 20px 13px 20px"
-						border-radius="40px"
-						font="500 18px/130% --fontFamily-googleMontserrat"
-						margin="0px 0px 20px 0px"
-						hover-color="#000000"
-						hover-background="#F8F8F8"
-						border-width="1px"
-						border-style="solid"
-						border-color="#000000"
-						transition="background-color 0.3s ease 0s"
-					>
-						Подробнее
-					</Link>
-				</StackItem>
-				<StackItem width="33.33%" md-width="50%" sm-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
-						background="#ffffff"
-						padding="0px 0px 10px 0px"
-						border-radius="6px"
-					/>
-					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
-					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
-						EPT SOCHI
-					</Text>
-					<Link
-						href="#"
-						text-decoration-line="initial"
-						color="#ffffff"
-						background="#001A51"
-						padding="13px 20px 13px 20px"
-						border-radius="40px"
-						font="500 18px/130% --fontFamily-googleMontserrat"
-						margin="0px 0px 20px 0px"
-						hover-color="#000000"
-						hover-background="#F8F8F8"
-						border-width="1px"
-						border-style="solid"
-						border-color="#000000"
-						transition="background-color 0.3s ease 0s"
-					>
-						Подробнее
-					</Link>
-				</StackItem>
-				<StackItem width="33.33%" md-width="50%" sm-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
-						background="#ffffff"
-						padding="0px 0px 10px 0px"
-						border-radius="6px"
-					/>
-					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
-					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
-						EPT SOCHI
-					</Text>
-					<Link
-						href="#"
-						text-decoration-line="initial"
-						color="#ffffff"
-						background="#001A51"
-						padding="13px 20px 13px 20px"
-						border-radius="40px"
-						font="500 18px/130% --fontFamily-googleMontserrat"
-						margin="0px 0px 20px 0px"
-						hover-color="#000000"
-						hover-background="#F8F8F8"
-						border-width="1px"
-						border-style="solid"
-						border-color="#000000"
-						transition="background-color 0.3s ease 0s"
-					>
-						Подробнее
-					</Link>
-				</StackItem>
-				<StackItem width="33.33%" md-width="50%" sm-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
-						background="#ffffff"
-						padding="0px 0px 10px 0px"
-						border-radius="6px"
-					/>
-					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
-					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
-						EPT SOCHI
+						EPT Sochi March 2021{"\n\n"}
 					</Text>
 					<Link
 						href="#"
@@ -912,7 +832,7 @@ export default (() => {
 						sm-text-align="center"
 						color="#ffffff"
 					>
-						Стать партнером
+						Обратная связь
 					</Text>
 					{"            "}
 				</StackItem>

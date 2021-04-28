@@ -29,7 +29,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" />
 					{"        "}
 					<Image
-						src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/5.png?v=2021-04-18T22:22:31.873Z"
+						src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A1%D0%BE%D1%8E%D0%B7_%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%D0%98%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%98%D0%B3%D1%80_%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9.svg?v=2021-04-28T05:03:18.949Z"
 						width="100%"
 						height="auto"
 						max-height="115px"
@@ -250,11 +250,11 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="115px 0 45px 0" align-items="center">
+		<Section background="#F8F8F8" padding="145px 0 45px 0" align-items="center">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px" align-items="flex-start" justify-content="center">
 				{"        "}
-				<StackItem width="40%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+				<StackItem width="30%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
 						align-items="flex-start"
@@ -280,7 +280,7 @@ export default (() => {
 					</Box>
 					{"          "}
 				</StackItem>
-				<StackItem width="60%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+				<StackItem width="70%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
 						align-items="flex-start"
@@ -297,7 +297,14 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 					>
 						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
-							<Strong>
+							<Strong
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
 								Артур Восканян
 							</Strong>
 						</Text>
@@ -334,7 +341,7 @@ export default (() => {
 						sm-text-align="center"
 						color="#ffffff"
 					>
-						Стать партнером
+						Обратная связь
 					</Text>
 					{"            "}
 				</StackItem>

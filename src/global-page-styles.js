@@ -7,6 +7,7 @@ const pageStyles = {
     "index": {},
     "home": {},
     "marina-bludyan": {},
+    "artur-voskanyan": {},
     "turnirnyj-poker": {}
 };
 
