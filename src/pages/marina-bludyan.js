@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Strong, Text, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Strong, Text, List, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section, Formspree, SocialMedia } from "@quarkly/components";
@@ -296,26 +296,98 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
-							<Strong
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								Артур Восканян
+						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 14px 0px" sm-text-align="center" text-align="center">
+							<Strong>
+								Марина Блудян{"\n\n"}
 							</Strong>
 						</Text>
-						<Text font="italic 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 34px 0px">
-							Покерный эксперт
+						<Text font="italic 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 30px 0px">
+							Президент Союза{"\n\n"}
 						</Text>
-						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-							Повседневная практика показывает, что постоянный количественный рост и сфера нашей активности способствует подготовки и реализации дальнейших направлений развития. Задача организации, в особенности же сложившаяся структура организации влечет за собой процесс внедрения и модернизации дальнейших направлений развития. Равным образом сложившаяся структура организации требуют от нас анализа существенных финансовых и административных условий.
-							<br />
-							<br />
-							Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности требуют определения и уточнения существенных финансовых и административных условий. Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют определения и уточнения системы обучения кадров, соответствует насущным потребностям. С другой стороны реализация намеченных плановых заданий влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в отношении поставленных задач.{" "}
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Первый вице-президент Общероссийской общественной организации малого и среднего предпринимательства «ОПОРА РОССИИ»;{"\n\n"}
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Представитель Уполномоченного при Президенте Российской Федерации по защите прав предпринимателей по вопросам, связанным с ликвидацией нарушений прав предпринимателей сфере пожарной безопасности и по вопросам защиты прав предпринимателей, использующих специальные налоговые режимы, в том числе замозанятых;{"\n\n"}
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Член Высшего совета Всероссийской политической партии «ЕДИНАЯ РОССИЯ»;
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Член Подкомиссии по оценке фактического воздействия нормативных правовых актов при Правительственной комиссии по проведению административной реформы;
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Заместитель Председателя Общественного совета Федеральной службы по аккредитации «Росаккредитация»;
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Член Совета по стандартизации Федерального агентства по техническому регулированию и метрологии (Росстандарт);
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Член Комиссии по апелляциям при Федеральном агентстве по техническому регулированию и метрологии (Росстандарт);
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Член Комиссии по апелляциям при Федеральной службе по аккредитации (Росаккредитация)
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Член Комитета по стратегии при Наблюдательном совете Фонда развития промышленности;{"\n\n"}
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Член Совета по техническому регулированию и стандартизации
+								<br />
+								при Минпромторге России;{"\n\n"}
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Сопредседатель рабочих групп по реализации механизма «регуляторной гильотины» в сферах пожарной безопасности, гражданской обороны и чрезвычайных ситуаций и в сфере азартных игр и лотерей;
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Председатель Технического комитета по стандартизации ТК 079
+								<br />
+								«Оценка соответствия»;{"\n\n"}
+							</Text>
+						</List>
+						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px" text-decoration-line="underline">
+							Участие в группах:{"\n\n"}
+						</Text>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								Экспертная группа по основному направлению стратегического развития РФ «Малый бизнес и поддержка индивидуальной предпринимательской инициативы»;
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								проектный комитет по основному направлению стратегического развития РФ «Малый бизнес и поддержка индивидуальной предпринимательской инициативы»;
+							</Text>
+						</List>
+						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+							<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+								рабочая группа по улучшению условий ведения предпринимательской деятельности при Правительственной комиссии по экономическому развитию и интеграции
+							</Text>
+						</List>
+						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+							Марина Анатольевна активно занимается законотворческой деятельностью, является разработчиком десятков законодательных инициатив в сфере технического регулирования, государственного и муниципального контроля и надзора, вносит поправки и предложения к рассматриваемым законопроектам, выступает с докладами на российских и международных форумах предпринимателей.{"\n\n\n\n"}
 						</Text>
 					</Box>
 					{"          "}
