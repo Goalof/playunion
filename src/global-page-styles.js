@@ -8,7 +8,9 @@ const pageStyles = {
     "home": {},
     "marina-bludyan": {},
     "artur-voskanyan": {},
-    "turnirnyj-poker": {}
+    "turnirnyj-poker": {},
+    "news": {},
+    "news/ert-sochi": {}
 };
 
 const PageStyles = createGlobalStyle`

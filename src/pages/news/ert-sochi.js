@@ -1,13 +1,13 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Strong, Text, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Strong, Text, List, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section, Formspree, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"turnirnyj-poker"} />
+		<GlobalQuarklyPageStyles pageUrl={"news/ert-sochi"} />
 		<Helmet>
 			<title>
 				Quarkly export
@@ -41,7 +41,13 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/poker-table.jpg?v=2021-05-05T12:58:02.404Z" width="100%" border-radius="6px" height="auto" />
+						<Image
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/ept-sochi.jpg?v=2021-05-05T13:09:12.729Z"
+							width="100%"
+							border-radius="6px"
+							sm-width="100%"
+							height="auto"
+						/>
 					</Box>
 					{"          "}
 				</StackItem>
@@ -63,20 +69,207 @@ export default (() => {
 					>
 						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
 							<Strong>
-								О турнире
+								ЕРТ Сочи, 19-28 марта 2021
 							</Strong>
 						</Text>
 						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-							Покер – интеллектуальная азартная игра, в которой люди играют друг с другом и результат (победа или поражение) игры во многом зависит от мастерства игрока, от его умения точнее соперника рассчитывать вероятности и шансы, принимать математически оптимальные решения, анализировать и оценивать тактику и стратегию игры оппонента.{" "}
+							Состоявшийся в марте 2021 года российский этап European Poker Tour (EPT) обрел своего нового чемпиона. Артур Мартиросян стал лучшим среди 852 участников Главного События, проходившего в Казино Сочи.{" "}
+						</Text>
+					</Box>
+					{"          "}
+				</StackItem>
+				<StackItem width="50%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+					<Override
+						slot="StackItemContent"
+						align-items="flex-start"
+						justify-content="center"
+						padding="0px 0px 0px 0px"
+						flex-direction="column"
+						md-align-items="center"
+					/>
+					<Box
+						display="flex"
+						align-items="flex-start"
+						justify-content="center"
+						flex-direction="column"
+						padding="0px 0px 0px 0px"
+					>
+						<Text font="600 20px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px" sm-text-align="center">
+							Результаты финального стола События EPT Sochi 2021:
+						</Text>
+						<List margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px" font="500 16px/130% --fontFamily-googleMontserrat">
+							<Text>
+								Артур Мартиросян (Россия)
+							</Text>
+							<Text>
+								Владислав Наумов (Россия)
+							</Text>
+							<Text>
+								Мухтар Тайзи (Турция)
+							</Text>
+							<Text>
+								Фанис Хафизов (Россия)
+							</Text>
+							<Text>
+								Юрий Бречанов (Россия)
+							</Text>
+							<Text>
+								Антон Смирнов (Россия)
+							</Text>
+							<Text>
+								Владимир Божинович (Сербия) - 3 283 000 рублей
+							</Text>
+							<Text>
+								Роман Гаджиев (Россия) - 2 307 900 рублей
+							</Text>
+						</List>
+					</Box>
+					{"          "}
+				</StackItem>
+				<StackItem width="50%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+					<Override
+						slot="StackItemContent"
+						align-items="flex-start"
+						justify-content="center"
+						padding="0px 0px 0px 0px"
+						flex-direction="column"
+						md-align-items="center"
+					/>
+					<Box
+						display="flex"
+						align-items="flex-start"
+						justify-content="center"
+						flex-direction="column"
+						padding="0px 0px 0px 0px"
+					>
+						<Text font="600 20px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px" sm-text-align="center">
+							Чемпионы Главного События EPT Sochi по годам:
+						</Text>
+						<Text font="500 16px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px">
+							2018: 861 вход, Арсений Кармацкий (Россия)
+						</Text>
+						<Text font="500 16px/130% --fontFamily-googleMontserrat" margin="8px 0px 8px 0px">
+							2019: 758 вход, Ури Гилбоа (Израиль)
+						</Text>
+						<Text font="500 16px/130% --fontFamily-googleMontserrat" margin="8px 0px 8px 0px">
+							2020: 637 вход, Руслан Богданов (Россия)
+						</Text>
+						<Text font="500 16px/130% --fontFamily-googleMontserrat" margin="8px 0px 8px 0px">
+							2021: 852 входа, Артур Мартиросян (Россия)
+						</Text>
+						<Text font="500 16px/150% --fontFamily-googleMontserrat" margin="18px 0px 8px 0px">
+							Виктор Кудинов стал лучшим среди 105 участников турнира{" "}
+							<Strong>
+								хайроллеров ЕРТ Sochi.{" "}
+							</Strong>
 							<br />
 							<br />
-							Жители России, благодаря сильной математической подготовке, занимают лидирующие позиции на мировой покерной арене. Они выигрывали и выигрывают крупнейшие турниры по покеру и считаются одними из сильнейших в мире. В международных сериях по покеру участвуют десяти тысяч игроков из России.{" "}
-							<br />
-							<br />
-							Вне зависимости от наличия регуляторных или запретительных мер, игра в покер существует и охватывает большое количество населения страны, что позволяет считать покер социально-общественным явлением, нуждающимся в специальном регулировании. В марте 2021 года ВЦИОМ провел общероссийский опрос общественного мнения на тему отношения россиян к игре в покер. По данным опроса уровень вовлеченности населения в игру в покер составляет 15% (в сентябре 2013 года 16%) среди совершеннолетних жителей России, тогда как среди представителей интернет-аудитории, почти каждый второй опрошенный (49%) знаком с игрой и когда-либо играл в нее. Доля респондентов, имеющих опыт игры в покер, выше среди молодежи до 34 лет. Лидерами по доле игроков в покер являются россияне с незаконченным высшим или высшим образованием, а также проживающие в городах с численностью 1 миллион и более человек. По мнению большинства, как среди всех россиян (54%), так и среди интернет-аудитории (71%) право играть в покер у жителей России должно быть.
-							<br />
-							<br />
-							С 2018 года в игорной зоне Красная Поляна (Сочи) на постоянной основе проводится российский этап Европейского покерного тура (ЕРТ), самого масштабного и популярного покерного тура в мире. С момента основания EPT (2004 год) этапы тура проходили в крупнейших городах мира, в т.ч. в Лондоне, Барселоне, Берлине, Вене, Праге, Варшаве, Копенгагене и др., финал в Монако (Монте-Карло). Благодаря профессионализму Казино Сочи, местной инфраструктуре и сервису Россия теперь тоже включена в постоянное расписание лучших покерных чемпионатов мира.{" \n\n"}
+							Турнир хайроллеров 2021 года стал самым многочисленным среди себе подобных на EPT Sochi, собрав 105 входов (из них 12 повторных).
+						</Text>
+					</Box>
+					{"          "}
+				</StackItem>
+				<StackItem width="50%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+					<Override
+						slot="StackItemContent"
+						align-items="flex-start"
+						justify-content="center"
+						padding="0px 0px 0px 0px"
+						flex-direction="column"
+						md-align-items="center"
+					/>
+					<Box
+						display="flex"
+						align-items="flex-start"
+						justify-content="center"
+						flex-direction="column"
+						padding="0px 0px 0px 0px"
+					>
+						<Text font="600 20px/150% --fontFamily-googleMontserrat" margin="20px 0px 16px 0px" sm-text-align="center">
+							Результаты финального стола турнира хайроллеров EPT Sochi 2021:
+						</Text>
+						<List margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px" font="500 16px/130% --fontFamily-googleMontserrat">
+							<Text>
+								Виктор Кудинов (Россия)
+							</Text>
+							<Text>
+								Георгий Схулухия (Россия)
+							</Text>
+							<Text>
+								Ваге Мартиросян (Россия)
+							</Text>
+							<Text>
+								Евгений Старинков (Россия)
+							</Text>
+							<Text>
+								Анатолий Столковский (Россия)
+							</Text>
+							<Text>
+								Андрей Чернокоз (Россия)
+							</Text>
+							<Text>
+								Егор Турубанов (Россия)
+							</Text>
+							<Text>
+								Александр Томович (Сербия)
+							</Text>
+						</List>
+						<Text font="500 18px/130% --fontFamily-googleMontserrat">
+							<Strong>
+								EPT Cup
+							</Strong>
+							{" "}собрал 875 входов.
+						</Text>
+					</Box>
+					{"          "}
+				</StackItem>
+				<StackItem width="50%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+					<Override
+						slot="StackItemContent"
+						align-items="flex-start"
+						justify-content="center"
+						padding="0px 0px 0px 0px"
+						flex-direction="column"
+						md-align-items="center"
+					/>
+					<Box
+						display="flex"
+						align-items="flex-start"
+						justify-content="center"
+						flex-direction="column"
+						padding="0px 0px 0px 0px"
+					>
+						<Text font="600 20px/130% --fontFamily-googleMontserrat" margin="20px 0px 16px 0px" sm-text-align="center">
+							Итоги финального стола EPT Cup :
+						</Text>
+						<List margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px" font="500 16px/130% --fontFamily-googleMontserrat">
+							<Text>
+								Дмитрий Коптев (Россия)
+							</Text>
+							<Text>
+								Александр Агабеков (Россия)
+							</Text>
+							<Text>
+								Булат Феоктистов (Россия)
+							</Text>
+							<Text>
+								Владимир Волов (Россия)
+							</Text>
+							<Text>
+								Георгий Филиппович (Россия)
+							</Text>
+							<Text>
+								Рудольф Домин (Россия)
+							</Text>
+							<Text>
+								Вадим Габриэль (Россия)
+							</Text>
+							<Text>
+								Константин Генералов (Россия)
+							</Text>
+						</List>
+						<Text font="500 18px/150% --fontFamily-googleMontserrat" margin="19px 0px 16px 0px">
+							Всего 10-дневный фестиваль ЕРТ Sochi 2021 включал в себя 25 различных турниров.
 						</Text>
 					</Box>
 					{"          "}

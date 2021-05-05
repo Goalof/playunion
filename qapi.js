@@ -10,7 +10,8 @@ export default {
 				"6079f4e292d19d001eee6d12",
 				"6081a651951877001f1e32c6",
 				"6086ea915ae4cf0017443af2",
-				"6081aab923a143001e08fb32"
+				"6081aab923a143001e08fb32",
+				"6092988d7f5b95001e5eb712"
 			]
 		},
 		"6079f3c67c7120001f1ee28a": {
@@ -51,6 +52,19 @@ export default {
 			"seo": {
 				"title": ""
 			}
+		},
+		"6092985e765ed9001e2a6c6c": {
+			"id": "6092985e765ed9001e2a6c6c",
+			"pageUrl": "ert-sochi",
+			"name": "ЕРТ Сочи"
+		},
+		"6092988d7f5b95001e5eb712": {
+			"id": "6092988d7f5b95001e5eb712",
+			"pageUrl": "news",
+			"name": "Архив",
+			"children": [
+				"6092985e765ed9001e2a6c6c"
+			]
 		}
 	},
 	"mode": "production",
