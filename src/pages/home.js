@@ -23,7 +23,7 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
 		<Components.Header />
-		<Section background="#F8F8F8" padding="100px 0 5px 0">
+		<Section background="#F8F8F8" padding="100px 0 0px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -78,7 +78,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="about" background="#F8F8F8" padding="5px 0 5px 0">
+		<Section id="about" background="#F8F8F8" padding="15px 0 25px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -86,7 +86,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					<Text
 						font="28px/140% --fontFamily-googleMontserrat"
-						margin="20px 0px 60px 0px"
+						margin="70px 0px 70px 0px"
 						lg-font="27px/130% --fontFamily-googleMontserrat"
 						lg-margin="20px 0px 40px 0px"
 						md-font="24px/130% --fontFamily-googleMontserrat"
@@ -356,7 +356,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="news" background="#001A51" padding="5px 0 10px 0">
+		<Section id="event" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -587,6 +587,40 @@ export default (() => {
 					</Box>
 					{"          "}
 				</StackItem>
+				<StackItem
+					width="25%"
+					display="flex"
+					margin="0px 0px 0px 0px"
+					lg-width="50%"
+					lg-margin="0 0 20px 0"
+				>
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						padding="0px 0px 0px 0px"
+						flex-direction="column"
+					/>
+					<Box
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						flex-direction="column"
+						padding="0px 20px 0px 20px"
+					>
+						<Link href="https://www.pokerstarslive.com/ept/open-sochi/">
+							<Image
+								src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/figurs.png?v=2021-05-19T20:24:59.160Z"
+								width="100%"
+								max-width="450px"
+								filter="grayscale(100%)"
+								transition="all .3s"
+								hover-filter="grayscale(0%)"
+							/>
+						</Link>
+					</Box>
+					{"          "}
+				</StackItem>
 			</Stack>
 		</Section>
 		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
@@ -614,7 +648,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="0px 0 0px 0">
+		<Section background="#000000" padding="0px 0 0px 0">
 			<Override
 				slot="SectionContent"
 				align-items="center"
@@ -625,62 +659,73 @@ export default (() => {
 			<Stack width="100%" margin="0px 0px 0px 0px" gap="0px">
 				{"    "}
 				<StackItem width="100%" display="flex">
-					<Formspree
-						errorMessage="Something went wrong"
-						completeText="Success"
-						endpoint="meqvonkd"
-						display="flex"
-						flex-direction="column"
-						width="100%"
-						background="#000000"
-						padding="50px 80px 50px 80px"
-						border-radius="0px"
-						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
-						border-width="12px"
-					>
-						<Input
-							name="Имя"
-							placeholder="Имя"
-							margin="0px 4px 20px 0px"
-							width="100%"
-							type="text"
-							border-width="1px"
-							padding="9px 16px 9px 16px"
-							placeholder-color="#000000"
-						/>
-						<Input
-							name="email"
-							placeholder="Email"
-							margin="0px 4px 20px 0px"
-							width="100%"
-							border-width="1px"
-							padding="9px 16px 9px 16px"
-							placeholder-color="#000000"
-						/>
-						<Input
-							name="Категория"
-							placeholder="Категория"
-							margin="0px 4px 20px 0px"
-							width="100%"
-							type="text"
-							border-width="1px"
-							padding="9px 16px 9px 16px"
-							placeholder-color="#000000"
-						/>
-						<Button
-							background="#ffffff"
-							font="500 19px/130% --fontFamily-googleMontserrat"
-							width="100%"
-							color="#000000"
-							hover-color="#ffffff"
-							hover-background="#000000"
-							border-width="1px"
-							border-style="solid"
-							border-color="#ffffff"
+					<Override slot="StackItemContent" align-items="center" justify-content="center" padding="40px 0px 20px 0px" />
+					<Components.QuarklycommunityKitPopup>
+						<Override
+							slot="Button Open"
+							background="#001A51"
+							font="500 18px/130% --fontFamily-googleMontserrat"
+							border-radius="40px"
+							padding="13px 24px 13px 24px"
 						>
-							Отправить
-						</Button>
-					</Formspree>
+							Написать нам
+						</Override>
+						<Formspree
+							errorMessage="Something went wrong"
+							completeText="Success"
+							endpoint="meqvonkd"
+							display="flex"
+							flex-direction="column"
+							background="#000000"
+							padding="50px 80px 50px 80px"
+							border-radius="0px"
+							box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+							border-width="12px"
+						>
+							<Input
+								name="Имя"
+								placeholder="Имя"
+								margin="0px 4px 20px 0px"
+								width="100%"
+								type="text"
+								border-width="1px"
+								padding="9px 16px 9px 16px"
+								placeholder-color="#000000"
+							/>
+							<Input
+								name="email"
+								placeholder="Email"
+								margin="0px 4px 20px 0px"
+								width="100%"
+								border-width="1px"
+								padding="9px 16px 9px 16px"
+								placeholder-color="#000000"
+							/>
+							<Input
+								name="Категория"
+								placeholder="Категория"
+								margin="0px 4px 20px 0px"
+								width="100%"
+								type="text"
+								border-width="1px"
+								padding="9px 16px 9px 16px"
+								placeholder-color="#000000"
+							/>
+							<Button
+								background="#ffffff"
+								font="500 19px/130% --fontFamily-googleMontserrat"
+								width="100%"
+								color="#000000"
+								hover-color="#ffffff"
+								hover-background="#000000"
+								border-width="1px"
+								border-style="solid"
+								border-color="#ffffff"
+							>
+								Отправить
+							</Button>
+						</Formspree>
+					</Components.QuarklycommunityKitPopup>
 					{"            "}
 				</StackItem>
 				{"    "}
