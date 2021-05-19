@@ -78,7 +78,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="about" background="#F8F8F8" padding="15px 0 25px 0">
+		<Section id="about" background="#F8F8F8" padding="45px 0 65px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -667,6 +667,9 @@ export default (() => {
 							font="500 18px/130% --fontFamily-googleMontserrat"
 							border-radius="40px"
 							padding="13px 24px 13px 24px"
+							hover-color="#001A51"
+							hover-background="--color-light"
+							transition="background-color 0.3s ease 0s"
 						>
 							Написать нам
 						</Override>
