@@ -679,11 +679,15 @@ export default (() => {
 							endpoint="meqvonkd"
 							display="flex"
 							flex-direction="column"
-							background="#000000"
 							padding="50px 80px 50px 80px"
 							border-radius="0px"
 							box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
 							border-width="12px"
+							background="#000000"
+							color="#ffffff"
+							font="500 18px/130% --fontFamily-googleMontserrat"
+							align-items="center"
+							justify-content="center"
 						>
 							<Input
 								name="Имя"
