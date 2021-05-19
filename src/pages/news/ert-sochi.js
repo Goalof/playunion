@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Strong, Text, List, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Section, Strong, Text, List } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Section, Formspree, SocialMedia } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -491,31 +491,6 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
-			<Override slot="SectionContent" max-width="none" width="95%" />
-			<Stack margin="0px 0px 0px 0px">
-				{"        "}
-				<StackItem width="100%" display="flex">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="flex-start"
-						sm-align-items="center"
-						sm-justify-content="center"
-					/>
-					<Text
-						font="700 35px/130% --fontFamily-googleMontserrat"
-						margin="0px 0px 0px 0px"
-						sm-font="700 28px/130% --fontFamily-googleMontserrat"
-						sm-text-align="center"
-						color="#ffffff"
-					>
-						Обратная связь
-					</Text>
-					{"            "}
-				</StackItem>
-			</Stack>
-		</Section>
 		<Section background="#F8F8F8" padding="0px 0 0px 0">
 			<Override
 				slot="SectionContent"
@@ -527,62 +502,6 @@ export default (() => {
 			<Stack width="100%" margin="0px 0px 0px 0px" gap="0px">
 				{"    "}
 				<StackItem width="100%" display="flex">
-					<Formspree
-						errorMessage="Something went wrong"
-						completeText="Success"
-						endpoint="meqvonkd"
-						display="flex"
-						flex-direction="column"
-						width="100%"
-						background="#000000"
-						padding="50px 80px 50px 80px"
-						border-radius="0px"
-						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
-						border-width="12px"
-					>
-						<Input
-							name="Имя"
-							placeholder="Имя"
-							margin="0px 4px 20px 0px"
-							width="100%"
-							type="text"
-							border-width="1px"
-							padding="9px 16px 9px 16px"
-							placeholder-color="#000000"
-						/>
-						<Input
-							name="email"
-							placeholder="Email"
-							margin="0px 4px 20px 0px"
-							width="100%"
-							border-width="1px"
-							padding="9px 16px 9px 16px"
-							placeholder-color="#000000"
-						/>
-						<Input
-							name="Категория"
-							placeholder="Категория"
-							margin="0px 4px 20px 0px"
-							width="100%"
-							type="text"
-							border-width="1px"
-							padding="9px 16px 9px 16px"
-							placeholder-color="#000000"
-						/>
-						<Button
-							background="#ffffff"
-							font="500 19px/130% --fontFamily-googleMontserrat"
-							width="100%"
-							color="#000000"
-							hover-color="#ffffff"
-							hover-background="#000000"
-							border-width="1px"
-							border-style="solid"
-							border-color="#ffffff"
-						>
-							Отправить
-						</Button>
-					</Formspree>
 					{"            "}
 				</StackItem>
 				{"    "}

@@ -109,7 +109,7 @@ const overrides = {
 					Руководство и эксперты
 				</Link>
 				<Link
-					href="#event"
+					href="#news"
 					text-decoration-line="initial"
 					color="#000000"
 					font="600 21px --fontFamily-googleMontserrat"

@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Strong, Text, Icon, Image, Box, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Section, Strong, Text, Icon, Image, Box, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Section, Formspree, SocialMedia } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack, Formspree, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
 import { GiPokerHand, GiHorseshoe, GiCrossedAxes } from "react-icons/gi";
 export default (() => {
@@ -78,7 +78,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="5px 0 5px 0">
+		<Section id="about" background="#F8F8F8" padding="5px 0 5px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -106,7 +106,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
+		<Section id="categories" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -239,7 +239,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
+		<Section id="team" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -356,7 +356,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
+		<Section id="news" background="#001A51" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="none" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
