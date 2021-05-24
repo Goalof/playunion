@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"turnirnyj-poker"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Турнирный покер
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/6.png?v=2021-04-16T21:43:23.926Z"} type={"image/x-icon"} />
@@ -63,7 +63,7 @@ export default (() => {
 					>
 						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
 							<Strong>
-								О турнире
+								Турнирный покер
 							</Strong>
 						</Text>
 						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">

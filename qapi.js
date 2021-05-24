@@ -38,19 +38,25 @@ export default {
 		"6081a651951877001f1e32c6": {
 			"id": "6081a651951877001f1e32c6",
 			"pageUrl": "marina-bludyan",
-			"name": "Марина Блудян"
+			"name": "Марина Блудян",
+			"seo": {
+				"title": "Марина Блудян"
+			}
 		},
 		"6081aab923a143001e08fb32": {
 			"id": "6081aab923a143001e08fb32",
 			"pageUrl": "turnirnyj-poker",
-			"name": "Турнирный покер"
+			"name": "Турнирный покер",
+			"seo": {
+				"title": "Турнирный покер"
+			}
 		},
 		"6086ea915ae4cf0017443af2": {
 			"id": "6086ea915ae4cf0017443af2",
 			"pageUrl": "artur-voskanyan",
 			"name": "Артур Восканян",
 			"seo": {
-				"title": ""
+				"title": "Артур Восканян"
 			}
 		},
 		"6092985e765ed9001e2a6c6c": {

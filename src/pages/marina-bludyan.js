@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"marina-bludyan"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Марина Блудян
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/6.png?v=2021-04-16T21:43:23.926Z"} type={"image/x-icon"} />

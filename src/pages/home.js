@@ -383,81 +383,7 @@ export default (() => {
 		</Section>
 		<Section background="#F8F8F8" padding="30px 0 40px 0" align-items="center">
 			<Override slot="SectionContent" width="95%" max-width="none" />
-			<Stack margin="0px 0px 0px 0px" flex-direction="row" align-items="center" justify-content="center">
-				<StackItem width="33.33%" md-width="50%" sm-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
-						background="#ffffff"
-						padding="0px 0px 10px 0px"
-						border-radius="6px"
-					/>
-					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
-					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px">
-						EPT Sochi March 2021
-					</Text>
-					<Text font="italic 600 18px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
-						19-28 марта 2021
-					</Text>
-					<Link
-						href="/news/ert-sochi"
-						text-decoration-line="initial"
-						color="#ffffff"
-						background="#001A51"
-						padding="13px 20px 13px 20px"
-						border-radius="40px"
-						font="500 18px/130% --fontFamily-googleMontserrat"
-						margin="0px 0px 20px 0px"
-						hover-color="#000000"
-						hover-background="#F8F8F8"
-						border-width="1px"
-						border-style="solid"
-						border-color="#000000"
-						transition="background-color 0.3s ease 0s"
-					>
-						Подробнее
-					</Link>
-				</StackItem>
-				<StackItem width="33.33%" md-width="50%" sm-width="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
-						background="#ffffff"
-						padding="0px 0px 10px 0px"
-						border-radius="6px"
-					/>
-					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
-					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px">
-						EPT Sochi March 2021
-					</Text>
-					<Text font="italic 600 18px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
-						19-28 марта 2021
-					</Text>
-					<Link
-						href="/news/ert-sochi"
-						text-decoration-line="initial"
-						color="#ffffff"
-						background="#001A51"
-						padding="13px 20px 13px 20px"
-						border-radius="40px"
-						font="500 18px/130% --fontFamily-googleMontserrat"
-						margin="0px 0px 20px 0px"
-						hover-color="#000000"
-						hover-background="#F8F8F8"
-						border-width="1px"
-						border-style="solid"
-						border-color="#000000"
-						transition="background-color 0.3s ease 0s"
-					>
-						Подробнее
-					</Link>
-				</StackItem>
+			<Stack margin="0px 0px 0px 0px" flex-direction="row" align-items="flex-start" justify-content="flex-start">
 				<StackItem width="33.33%" md-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
@@ -608,14 +534,13 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 20px 0px 20px"
 					>
-						<Link href="https://www.pokerstarslive.com/ept/open-sochi/">
+						<Link href="https://xn--c1adibnmybyh9ege.xn--p1ai/">
 							<Image
 								src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/figurs.png?v=2021-05-19T20:24:59.160Z"
 								width="100%"
 								max-width="450px"
-								filter="grayscale(100%)"
-								transition="all .3s"
-								hover-filter="grayscale(0%)"
+								hover-opacity="0.8"
+								transition="opacity 0.3s ease 0s"
 							/>
 						</Link>
 					</Box>
