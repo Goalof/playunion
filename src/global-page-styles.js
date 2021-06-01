@@ -10,7 +10,8 @@ const pageStyles = {
     "artur-voskanyan": {},
     "turnirnyj-poker": {},
     "news": {},
-    "news/ert-sochi": {}
+    "news/ert-sochi": {},
+    "news/ert-sochi1": {}
 };
 
 const PageStyles = createGlobalStyle`

@@ -62,15 +62,27 @@ export default {
 		"6092985e765ed9001e2a6c6c": {
 			"id": "6092985e765ed9001e2a6c6c",
 			"pageUrl": "ert-sochi",
-			"name": "ЕРТ Сочи"
+			"name": "ЕРТ Сочи",
+			"seo": {
+				"title": "ЕРТ Сочи, 19-28 марта 2021"
+			}
 		},
 		"6092988d7f5b95001e5eb712": {
 			"id": "6092988d7f5b95001e5eb712",
 			"pageUrl": "news",
 			"name": "Архив",
 			"children": [
-				"6092985e765ed9001e2a6c6c"
+				"6092985e765ed9001e2a6c6c",
+				"60b6b67846e2ba001e72d5e7"
 			]
+		},
+		"60b6b67846e2ba001e72d5e7": {
+			"id": "60b6b67846e2ba001e72d5e7",
+			"pageUrl": "ert-sochi1",
+			"name": "«Сильные фигуры» в Геленджике",
+			"seo": {
+				"title": "«Сильные фигуры» в Геленджике"
+			}
 		}
 	},
 	"mode": "production",

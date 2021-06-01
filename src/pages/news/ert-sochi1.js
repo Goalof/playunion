@@ -1,16 +1,16 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Strong, Text, Section } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Strong, Text, Span, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"artur-voskanyan"} />
+		<GlobalQuarklyPageStyles pageUrl={"news/ert-sochi1"} />
 		<Helmet>
 			<title>
-				Артур Восканян
+				«Сильные фигуры» в Геленджике
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/6.png?v=2021-04-16T21:43:23.926Z"} type={"image/x-icon"} />
@@ -21,15 +21,14 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/6.png?v=2021-04-16T21:43:23.926Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
-		<Components.Header />
-		<Section background="#F8F8F8" padding="145px 0 45px 0" align-items="center">
-			<Override slot="SectionContent" max-width="1280px" width="100%" />
+		<Components.HeaderNew />
+		<Section background="#F8F8F8" padding="115px 0 45px 0" align-items="center">
+			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px" align-items="flex-start" justify-content="center">
 				{"        "}
-				<StackItem width="30%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+				<StackItem width="100%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
-						align-items="flex-start"
 						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
@@ -42,11 +41,17 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-artur.webp?v=2021-04-19T00:05:54.037Z" width="100%" max-width="450px" border-radius="6px" />
+						<Image
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/7.webp?v=2021-06-01T22:35:07.809Z"
+							width="100%"
+							border-radius="6px"
+							sm-width="100%"
+							height="auto"
+						/>
 					</Box>
 					{"          "}
 				</StackItem>
-				<StackItem width="70%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+				<StackItem width="100%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
 						align-items="flex-start"
@@ -62,27 +67,15 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 14px 0px" sm-text-align="center" text-align="center">
-							<Strong
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								Артур Восканян
+						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
+							<Strong>
+								«Сильные фигуры» в Геленджике, 4 мая
 							</Strong>
 						</Text>
-						<Text font="italic 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 30px 0px">
-							Турнирный покер{"\n\n"}
-						</Text>
-						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
-							Артур Восканян — основатель компании Poker Club Management, управляющий крупнейшим в России покерным клубом в Казино Сочи, игрок и самый популярный покерный блогер в российском Instagram (
+						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
+							4 мая в Геленджике на территории «Геленджик гольф резорт» прошел четвертый розыгрыш международного фестиваля «
 							<Link
-								href="https://www.instagram.com/artpoker/"
-								target="_blank"
-								text-decoration-line="initial"
+								href="https://xn--c1adibnmybyh9ege.xn--p1ai/"
 								color="#001A51"
 								overflow-wrap="normal"
 								word-break="normal"
@@ -91,41 +84,33 @@ export default (() => {
 								text-overflow="clip"
 								hyphens="manual"
 							>
-								@artpoker
+								Сильные фигуры
 							</Link>
-							).
+							». В командном зачете турнира по гольфу победила команда под руководством Александра Жукова с результатом 119 ударов. Второе место заняла команда с капитаном Дмитрием Сватковским, а третье — с капитаном Михаилом Купфером.
 							<br />
 							<br />
-							Артур прошел путь от покерного дилера до вице-президента Федерации спортивного покера России.
-							<br />
-							<br />
-							В 2006 году создал компанию Poker Club Management, в первый год штат компании достиг 200 человек.
-							<br />
-							<br />
-							В настоящий момент Poker Club Management является ключевой компанией в индустрии покера Восточной Европы, организует крупнейшие покерные серии на территории СНГ.
-							<br />
-							<br />
-							{"\n"}С 2006 года компания Poker Club Management провела более 150 международных покерных серий, число уникальных игроков превышает 30000.
-							<br />
-							<br />
-							Помимо России, компания проводит чемпионаты в странах СНГ, Европы иКарибского бассейна, этапы World Poker Tour, European Poker Tour, World Series of Poker Circuit и многих других серий, в том числе и созданных самой компанией.
-							<br />
-							<br />
-							C 2012 года Артур Восканян представляет СНГ в международной Ассоциации турнирных директоров (Tournament Directors Association, США), которая занимается стандартизацией правил покера и покерных процедур.{"\n\n"}
-							<br />
-							{"\n\n"}
+							<Span
+								font="16px/27.3px Montserrat, sans-serif"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Источник:{" "}
+								<Link href="https://sport24.ru/news/golf/2021-05-05-rezultaty-mezhdunarodnogo-festivalya-silnyye-figury-v-gelendzhike" target="_blank" color="#001A51">
+									https://sport24.ru/news/golf/2021-05-05-rezultaty-mezhdunarodnogo-festivalya-silnyye-figury-v-gelendzhike
+								</Link>
+							</Span>
 						</Text>
 					</Box>
 					{"          "}
 				</StackItem>
 			</Stack>
-			<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
-				<br />
-				{"\n\n"}
-			</Text>
 		</Section>
 		<Section background="#000000" padding="5px 0 5px 0" align-items="center">
-			<Override slot="SectionContent" max-width="1280px" width="100%" />
+			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
 				<StackItem width="50%" display="flex">

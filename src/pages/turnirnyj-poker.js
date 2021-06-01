@@ -23,7 +23,7 @@ export default (() => {
 		</Helmet>
 		<Components.Header />
 		<Section background="#F8F8F8" padding="115px 0 45px 0" align-items="center">
-			<Override slot="SectionContent" max-width="none" width="95%" />
+			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px" align-items="flex-start" justify-content="center">
 				{"        "}
 				<StackItem width="100%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
@@ -89,7 +89,7 @@ export default (() => {
 				align-items="center"
 				justify-content="center"
 				width="100%"
-				max-width="none"
+				max-width="1280px"
 			/>
 			<Stack width="100%" margin="0px 0px 0px 0px" gap="0px">
 				{"    "}
@@ -100,7 +100,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section background="#000000" padding="5px 0 5px 0" align-items="center">
-			<Override slot="SectionContent" max-width="none" width="95%" />
+			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
 				<StackItem width="50%" display="flex">

@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Section, Strong, Text, Icon, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Box, Section, Strong, Text, Icon, Image, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Formspree, SocialMedia } from "@quarkly/components";
@@ -22,224 +22,7 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/6.png?v=2021-04-16T21:43:23.926Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
-		<Section background="#F8F8F8" padding="0px 0 0px 0" position="fixed" z-index="9">
-			<Override slot="SectionContent" max-width="1280px" width="95%" />
-			<Stack margin="0px 0px 0px 0px">
-				{"    "}
-				<StackItem width="25%" display="flex" lg-width="50%" sm-width="70%">
-					<Override slot="StackItemContent" align-items="flex-start" justify-content="flex-start" />
-					{"        "}
-					<Link href="/home" display="flex" align-items="center" justify-content="center">
-						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A1%D0%BE%D1%8E%D0%B7_%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%D0%98%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%98%D0%B3%D1%80_%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9.svg?v=2021-04-28T05:03:18.949Z"
-							width="100%"
-							height="auto"
-							max-height="115px"
-							object-position="0% 0%"
-							margin="0px 0px 0px -7px"
-							padding="0px 0px 0px 0px"
-						/>
-					</Link>
-					{"    "}
-				</StackItem>
-				{"    "}
-				<StackItem width="75%" display="flex" lg-width="50%" sm-width="30%">
-					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" />
-					{"        "}
-					<Box display="none" align-items="center" justify-content="center">
-						<Link
-							href="#about"
-							text-decoration-line="initial"
-							color="#000000"
-							font="600 21px --fontFamily-googleMontserrat"
-							padding="10px 13px 10px 12px"
-							hover-opacity="0.7"
-							transition="opacity 0.4s ease 0s"
-						>
-							О нас
-						</Link>
-						<Link
-							href="#categories"
-							text-decoration-line="initial"
-							color="#000000"
-							font="600 21px --fontFamily-googleMontserrat"
-							padding="10px 13px 10px 12px"
-							hover-opacity="0.7"
-							transition="opacity 0.4s ease 0s"
-						>
-							Категории игр
-						</Link>
-						<Link
-							href="#team"
-							text-decoration-line="initial"
-							color="#000000"
-							font="600 21px --fontFamily-googleMontserrat"
-							padding="10px 13px 10px 12px"
-							hover-opacity="0.7"
-							transition="opacity 0.4s ease 0s"
-						>
-							Руководство и эксперты
-						</Link>
-						<Link
-							href="#news"
-							text-decoration-line="initial"
-							color="#000000"
-							font="600 21px --fontFamily-googleMontserrat"
-							padding="10px 13px 10px 12px"
-							hover-opacity="0.7"
-							transition="opacity 0.4s ease 0s"
-						>
-							Мероприятия
-						</Link>
-						<Link
-							href="#partners"
-							text-decoration-line="initial"
-							color="#000000"
-							font="600 21px --fontFamily-googleMontserrat"
-							padding="10px 13px 10px 12px"
-							hover-opacity="0.7"
-							transition="opacity 0.4s ease 0s"
-						>
-							Партнеры
-						</Link>
-					</Box>
-					{"   "}
-					<Components.MobileSide2
-						flex="1 0 auto"
-						lg-position="relative"
-						lg-z-index="5"
-						lg-display="flex"
-						lg-justify-content="flex-end"
-						lg-align-items="center"
-						display="flex"
-						align-items="center"
-						justify-content="flex-end"
-					>
-						<Override
-							slot="Content"
-							display="flex"
-							align-items="center"
-							lg-position="fixed"
-							lg-top={0}
-							lg-left={0}
-							lg-z-index="1"
-							lg-width="100%"
-							lg-height="100%"
-							lg-background="white"
-							lg-flex-direction="column"
-						/>
-						<Override
-							slot="Button"
-							display="none"
-							lg-display="block"
-							lg-width="44px"
-							lg-height="28px"
-							lg-position="relative"
-							lg-z-index="6"
-							md-margin="0px 0px 0px 0px"
-						/>
-						<Override slot="Button Line" lg-background="black" lg-min-height="4px" lg-position="absolute" />
-						<Override slot="Button Line1" lg-width="44px" lg-top="0px" lg-right="0px" />
-						<Override slot="Button Line2" lg-top="12px" lg-right="0px" />
-						<Override slot="Button Line3" lg-top="24px" lg-right="0px" />
-						<Override slot="Button Line1 :closed" lg-width="44px" />
-						<Override slot="Button Line2 :closed" lg-width="32px" />
-						<Override slot="Button Line3 :closed" lg-width="20px" />
-						<Override slot="Button Line2 :open" lg-opacity="0" lg-width="32px" />
-						<Override slot="Button Line1 :open" lg-width="36px" lg-transform="translateY(12px) rotate(225deg)" />
-						<Override slot="Button Line3 :open" lg-width="36px" lg-transform="translateY(-12px) rotate(135deg)" md-margin="0px 0px 0px 0px" />
-						<Override slot="Content :closed" lg-opacity="0" lg-transition="transform --transitionDuration-normal step-end 0s,opacity --transitionDuration-normal --transitionTimingFunction-easeOut" lg-transform="translateY(-100%)" />
-						<Override slot="Content :open" lg-transform="translateY(0%)" lg-transition="transform --transitionDuration-normal step-start 0s,opacity --transitionDuration-normal --transitionTimingFunction-easeOut" lg-opacity="1" />
-						<Override slot="Button :open" lg-position="fixed" md-margin="14px 0px 0px 0px" />
-						<Box
-							display="flex"
-							align-items="center"
-							justify-content="center"
-							lg-flex-direction="column"
-							lg-margin="80px 0px 0px 0px"
-							lg-width="100%"
-						>
-							<Link
-								href="/home#about"
-								text-decoration-line="initial"
-								color="#000000"
-								font="600 20px --fontFamily-googleMontserrat"
-								padding="10px 13px 10px 12px"
-								transition="opacity 0.4s ease 0s"
-								lg-margin="0px 0px 8px 0px"
-								lg-font="600 24px --fontFamily-googleMontserrat"
-								sm-font="600 20px --fontFamily-googleMontserrat"
-								sm-text-align="center"
-								hover-color="#001A51"
-							>
-								О нас
-							</Link>
-							<Link
-								href="/home#categories"
-								text-decoration-line="initial"
-								color="#000000"
-								font="600 20px --fontFamily-googleMontserrat"
-								padding="10px 13px 10px 12px"
-								transition="opacity 0.4s ease 0s"
-								lg-margin="0px 0px 8px 0px"
-								lg-font="600 24px --fontFamily-googleMontserrat"
-								sm-font="600 20px --fontFamily-googleMontserrat"
-								sm-text-align="center"
-								hover-color="#001A51"
-							>
-								Категории игр
-							</Link>
-							<Link
-								href="/home#team"
-								text-decoration-line="initial"
-								color="#000000"
-								font="600 20px --fontFamily-googleMontserrat"
-								padding="10px 13px 10px 12px"
-								transition="opacity 0.4s ease 0s"
-								lg-margin="0px 0px 8px 0px"
-								lg-font="600 24px --fontFamily-googleMontserrat"
-								sm-font="600 20px --fontFamily-googleMontserrat"
-								sm-text-align="center"
-								hover-color="#001A51"
-							>
-								Состав Союза
-							</Link>
-							<Link
-								href="/home#event"
-								text-decoration-line="initial"
-								color="#000000"
-								font="600 20px --fontFamily-googleMontserrat"
-								padding="10px 13px 10px 12px"
-								transition="opacity 0.4s ease 0s"
-								lg-margin="0px 0px 8px 0px"
-								lg-font="600 24px --fontFamily-googleMontserrat"
-								sm-font="600 20px --fontFamily-googleMontserrat"
-								sm-text-align="center"
-								hover-color="#001A51"
-							>
-								События
-							</Link>
-							<Link
-								href="/home#partners"
-								text-decoration-line="initial"
-								color="#000000"
-								font="600 20px --fontFamily-googleMontserrat"
-								padding="10px 13px 10px 12px"
-								transition="opacity 0.4s ease 0s"
-								lg-margin="0px 0px 8px 0px"
-								lg-font="600 24px --fontFamily-googleMontserrat"
-								sm-font="600 20px --fontFamily-googleMontserrat"
-								sm-text-align="center"
-								hover-color="#001A51"
-							>
-								Партнеры
-							</Link>
-						</Box>
-					</Components.MobileSide2>
-					{" "}
-				</StackItem>
-			</Stack>
-		</Section>
+		<Components.HeaderNew />
 		<Section background="#F8F8F8" padding="100px 0 0px 0">
 			<Override slot="SectionContent" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
@@ -256,12 +39,34 @@ export default (() => {
 						autoPlay={false}
 						aspectRatio="auto"
 						width="100%"
+						lg-height="400px"
+						sm-height="200px"
 					>
-						<Override slot="Slide Image 2" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/1400%D1%85410-01.png?v=2021-04-28T18:28:13.562Z" height="500px" />
-						<Override slot="Slide Image 1" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/banner1.jpg?v=2021-05-31T15:49:13.737Z" object-fit="cover" height="500px" />
-						<Override slot="Slide Image" height="500px" min-height="200px" width="100%" />
-						<Override slot="Slide" height="500px" min-height="500px" />
-						<Override slot="Slides" height="500px" />
+						<Override
+							slot="Slide Image 2"
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/1400%D1%85410-01.png?v=2021-04-28T18:28:13.562Z"
+							height="500px"
+							md-height="400px"
+							sm-height="200px"
+						/>
+						<Override
+							slot="Slide Image 1"
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/banner1.jpg?v=2021-05-31T15:49:13.737Z"
+							object-fit="cover"
+							height="500px"
+							md-height="400px"
+							sm-height="200px"
+						/>
+						<Override
+							slot="Slide Image"
+							height="500px"
+							min-height="200px"
+							width="100%"
+							md-height="400px"
+							sm-height="200px"
+						/>
+						<Override slot="Slide" height="500px" min-height="500px" sm-height="200px" />
+						<Override slot="Slides" height="500px" sm-height="200px" />
 						<Override slot="Slide 1" height="500px" />
 					</Components.QuarklycommunityKitCarousel>
 					{"            "}
@@ -269,7 +74,7 @@ export default (() => {
 			</Stack>
 			<Box id="about" height="1px" min-height="1px" />
 		</Section>
-		<Section background="#F8F8F8" padding="45px 0 65px 0">
+		<Section background="#F8F8F8" padding="45px 0 65px 0" sm-padding="5px 0 25px 0">
 			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -282,7 +87,7 @@ export default (() => {
 						lg-margin="0px 0px 0px 0px"
 						md-font="24px/130% --fontFamily-googleMontserrat"
 						sm-font="18px/130% --fontFamily-googleMontserrat"
-						sm-margin="10px 0px 10px 0px"
+						sm-margin="0px 0px 0px 0px"
 						sm-text-align="center"
 						md-margin="0px 0px 0px 0px"
 					>
@@ -323,7 +128,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#F8F8F8" padding="95px 0 125px 0" align-items="center">
+		<Section background="#F8F8F8" padding="95px 0 125px 0" align-items="center" sm-padding="65px 0 65px 0">
 			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -569,8 +374,8 @@ export default (() => {
 		</Section>
 		<Section background="#F8F8F8" padding="30px 0 40px 0" align-items="center">
 			<Override slot="SectionContent" width="95%" max-width="1280px" />
-			<Stack margin="0px 0px 0px 0px" flex-direction="row" align-items="flex-start" justify-content="flex-start">
-				<StackItem width="33.33%" md-width="50%" sm-width="100%">
+			<Stack margin="0px 0px 0px 0px" flex-direction="row">
+				<StackItem width="33.33%" md-width="50%" sm-width="100%" height="100%">
 					<Override
 						slot="StackItemContent"
 						align-items="center"
@@ -580,13 +385,62 @@ export default (() => {
 						background="#ffffff"
 						padding="0px 0px 10px 0px"
 						border-radius="6px"
+						height="100%"
 					/>
 					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
-					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px">
-						EPT Sochi March 2021
+					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px" text-align="center">
+						EPT Sochi{" "}
+						<br />
+						March 2021
 					</Text>
 					<Text font="italic 600 18px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
 						19-28 марта 2021
+					</Text>
+					<Link
+						href="/news/ert-sochi"
+						text-decoration-line="initial"
+						color="#ffffff"
+						background="#001A51"
+						padding="13px 20px 13px 20px"
+						border-radius="40px"
+						font="500 18px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 20px 0px"
+						hover-color="#000000"
+						hover-background="#F8F8F8"
+						border-width="1px"
+						border-style="solid"
+						border-color="#000000"
+						transition="background-color 0.3s ease 0s"
+					>
+						Подробнее
+					</Link>
+				</StackItem>
+				<StackItem width="33.33%" md-width="50%" sm-width="100%">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						flex-direction="column"
+						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+						background="#ffffff"
+						padding="0px px 10px 0px"
+						border-radius="6px"
+					/>
+					<Image
+						src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/7.webp?v=2021-06-01T22:35:07.809Z"
+						border-radius="12px 12px 0px 0px"
+						margin="0px 0px 0px 0px"
+						width="100%"
+						height="175px"
+						object-fit="cover"
+					/>
+					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px" text-align="center">
+						«Сильные фигуры»{" "}
+						<br />
+						в Геленджике{"\n\n"}
+					</Text>
+					<Text font="italic 600 18px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
+						4 мая 2021
 					</Text>
 					<Link
 						href="/news/ert-sochi"
@@ -872,7 +726,7 @@ export default (() => {
 					<Text font="700 35px/130% --fontFamily-googleMontserrat" color="#ffffff" margin="0px 0px 0px 0px">
 						18+
 					</Text>
-					<Text font="400 14px/130% --fontFamily-googleMontserrat" margin="16px 0px 0px 0px">
+					<Text font="400 14px/130% --fontFamily-googleMontserrat" margin="16px 0px 0px 0px" sm-text-align="center">
 						© 2021 Союз участников интеллектуальных игр
 					</Text>
 					{"          "}
