@@ -387,7 +387,13 @@ export default (() => {
 						border-radius="6px"
 						height="100%"
 					/>
-					<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z" border-radius="12px 12px 0px 0px" margin="0px 0px 0px 0px" width="100%" />
+					<Image
+						src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z"
+						border-radius="12px 12px 0px 0px"
+						margin="0px 0px 0px 0px"
+						width="100%"
+						height="165px"
+					/>
 					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px" text-align="center">
 						EPT Sochi{" "}
 						<br />
@@ -431,7 +437,7 @@ export default (() => {
 						border-radius="12px 12px 0px 0px"
 						margin="0px 0px 0px 0px"
 						width="100%"
-						height="175px"
+						height="165px"
 						object-fit="cover"
 					/>
 					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px" text-align="center">
