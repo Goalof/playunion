@@ -255,10 +255,11 @@ export default (() => {
 						autoPlayBehavior="range"
 						autoPlay={false}
 						aspectRatio="auto"
+						width="100%"
 					>
 						<Override slot="Slide Image 2" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/1400%D1%85410-01.png?v=2021-04-28T18:28:13.562Z" height="500px" />
 						<Override slot="Slide Image 1" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/banner1.jpg?v=2021-05-31T15:49:13.737Z" object-fit="cover" height="500px" />
-						<Override slot="Slide Image" height="500px" min-height="200px" />
+						<Override slot="Slide Image" height="500px" min-height="200px" width="100%" />
 						<Override slot="Slide" height="500px" min-height="500px" />
 						<Override slot="Slides" height="500px" />
 						<Override slot="Slide 1" height="500px" />
@@ -278,11 +279,12 @@ export default (() => {
 						font="22px/140% --fontFamily-googleMontserrat"
 						margin="0px 0px 0px 0px"
 						lg-font="27px/130% --fontFamily-googleMontserrat"
-						lg-margin="20px 0px 40px 0px"
+						lg-margin="0px 0px 0px 0px"
 						md-font="24px/130% --fontFamily-googleMontserrat"
 						sm-font="18px/130% --fontFamily-googleMontserrat"
 						sm-margin="10px 0px 10px 0px"
 						sm-text-align="center"
+						md-margin="0px 0px 0px 0px"
 					>
 						<Strong>
 							Cоюз Участников Интеллектуальных Игр
@@ -329,7 +331,7 @@ export default (() => {
 					<Override
 						slot="StackItemContent"
 						align-items="center"
-						justify-content="flex-end"
+						justify-content="flex-start"
 						padding="0px 0px 0px 0px"
 						md-justify-content="center"
 					/>
@@ -399,7 +401,7 @@ export default (() => {
 					{"          "}
 				</StackItem>
 				<StackItem width="33.33%" display="flex" md-width="100%">
-					<Override slot="StackItemContent" justify-content="flex-start" padding="0px 0px 0px 0px" md-justify-content="center" />
+					<Override slot="StackItemContent" justify-content="flex-end" padding="0px 0px 0px 0px" md-justify-content="center" />
 					<Link
 						href="/"
 						display="flex"
@@ -454,13 +456,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section
-			background="#F8F8F8"
-			padding="5px 0 5px 0"
-			align-items="center"
-			min-height="100vh"
-			sm-padding="25px 0 25px 0"
-		>
+		<Section background="#F8F8F8" padding="75px 0 75px 0" align-items="center" sm-padding="25px 0 25px 0">
 			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px" align-items="center" justify-content="center">
 				{"        "}
