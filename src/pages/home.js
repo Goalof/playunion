@@ -103,7 +103,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="categories" background="#001A51" padding="5px 0 10px 0">
+		<Section id="categories" padding="5px 0 10px 0" background="#F8F8F8">
 			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -120,7 +120,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						sm-font="700 28px/130% --fontFamily-googleMontserrat"
 						sm-text-align="center"
-						color="#ffffff"
+						color="#222"
 					>
 						Категории игр
 					</Text>
@@ -236,7 +236,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="team" background="#001A51" padding="5px 0 10px 0">
+		<Section id="team" padding="5px 0 10px 0" background="#F8F8F8">
 			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -253,7 +253,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						sm-font="700 28px/130% --fontFamily-googleMontserrat"
 						sm-text-align="center"
-						color="#ffffff"
+						color="#222"
 					>
 						Состав Cоюза
 					</Text>
@@ -347,7 +347,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="event" background="#001A51" padding="5px 0 10px 0">
+		<Section id="event" background="#F8F8F8" padding="5px 0 10px 0">
 			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -364,7 +364,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						sm-font="700 28px/130% --fontFamily-googleMontserrat"
 						sm-text-align="center"
-						color="#ffffff"
+						color="#222"
 					>
 						События
 					</Text>
@@ -490,7 +490,7 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
+		<Section id="partners" padding="5px 0 10px 0" background="#F8F8F8">
 			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -507,7 +507,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						sm-font="700 28px/130% --fontFamily-googleMontserrat"
 						sm-text-align="center"
-						color="#ffffff"
+						color="#222"
 					>
 						Партнеры
 					</Text>
@@ -594,7 +594,7 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section id="partners" background="#001A51" padding="5px 0 10px 0">
+		<Section id="partners" padding="5px 0 10px 0" background="#F8F8F8">
 			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack margin="0px 0px 0px 0px">
 				{"        "}
@@ -611,7 +611,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						sm-font="700 28px/130% --fontFamily-googleMontserrat"
 						sm-text-align="center"
-						color="#ffffff"
+						color="#222"
 					>
 						Обратная связь
 					</Text>
