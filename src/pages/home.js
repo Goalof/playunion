@@ -375,52 +375,6 @@ export default (() => {
 		<Section background="#F8F8F8" padding="30px 0 40px 0" align-items="center">
 			<Override slot="SectionContent" width="95%" max-width="1280px" />
 			<Stack margin="0px 0px 0px 0px" flex-direction="row">
-				<StackItem width="33.33%" md-width="50%" sm-width="100%" height="100%">
-					<Override
-						slot="StackItemContent"
-						align-items="center"
-						justify-content="center"
-						flex-direction="column"
-						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
-						background="#ffffff"
-						padding="0px 0px 10px 0px"
-						border-radius="6px"
-						height="100%"
-					/>
-					<Image
-						src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z"
-						border-radius="12px 12px 0px 0px"
-						margin="0px 0px 0px 0px"
-						width="100%"
-						height="165px"
-					/>
-					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px" text-align="center">
-						EPT Sochi{" "}
-						<br />
-						March 2021
-					</Text>
-					<Text font="italic 600 18px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
-						19-28 марта 2021
-					</Text>
-					<Link
-						href="/news/ert-sochi"
-						text-decoration-line="initial"
-						color="#ffffff"
-						background="#001A51"
-						padding="13px 20px 13px 20px"
-						border-radius="40px"
-						font="500 18px/130% --fontFamily-googleMontserrat"
-						margin="0px 0px 20px 0px"
-						hover-color="#000000"
-						hover-background="#F8F8F8"
-						border-width="1px"
-						border-style="solid"
-						border-color="#000000"
-						transition="background-color 0.3s ease 0s"
-					>
-						Подробнее
-					</Link>
-				</StackItem>
 				<StackItem width="33.33%" md-width="50%" sm-width="100%">
 					<Override
 						slot="StackItemContent"
@@ -447,6 +401,52 @@ export default (() => {
 					</Text>
 					<Text font="italic 600 18px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
 						4 мая 2021
+					</Text>
+					<Link
+						href="/news/silnye-figuri-v-gelendgike"
+						text-decoration-line="initial"
+						color="#ffffff"
+						background="#001A51"
+						padding="13px 20px 13px 20px"
+						border-radius="40px"
+						font="500 18px/130% --fontFamily-googleMontserrat"
+						margin="0px 0px 20px 0px"
+						hover-color="#000000"
+						hover-background="#F8F8F8"
+						border-width="1px"
+						border-style="solid"
+						border-color="#000000"
+						transition="background-color 0.3s ease 0s"
+					>
+						Подробнее
+					</Link>
+				</StackItem>
+				<StackItem width="33.33%" md-width="50%" sm-width="100%" height="100%">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						flex-direction="column"
+						box-shadow="0 10px 10px rgb(0 0 2 / 5%);"
+						background="#ffffff"
+						padding="0px 0px 10px 0px"
+						border-radius="6px"
+						height="100%"
+					/>
+					<Image
+						src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/fon4.jpg?v=2021-04-20T11:48:15.855Z"
+						border-radius="12px 12px 0px 0px"
+						margin="0px 0px 0px 0px"
+						width="100%"
+						height="165px"
+					/>
+					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px" text-align="center">
+						EPT Sochi{" "}
+						<br />
+						March 2021
+					</Text>
+					<Text font="italic 600 18px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
+						19-28 марта 2021
 					</Text>
 					<Link
 						href="/news/ert-sochi"

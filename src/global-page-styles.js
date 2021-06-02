@@ -11,7 +11,7 @@ const pageStyles = {
     "turnirnyj-poker": {},
     "news": {},
     "news/ert-sochi": {},
-    "news/ert-sochi1": {}
+    "news/silnye-figuri-v-gelendgike": {}
 };
 
 const PageStyles = createGlobalStyle`

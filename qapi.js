@@ -78,7 +78,7 @@ export default {
 		},
 		"60b6b67846e2ba001e72d5e7": {
 			"id": "60b6b67846e2ba001e72d5e7",
-			"pageUrl": "ert-sochi1",
+			"pageUrl": "silnye-figuri-v-gelendgike",
 			"name": "«Сильные фигуры» в Геленджике",
 			"seo": {
 				"title": "«Сильные фигуры» в Геленджике"
