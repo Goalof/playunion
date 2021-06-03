@@ -68,11 +68,11 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 					>
 						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
-							<Strong>
+							<Strong font="700 22px/33.8px Montserrat, sans-serif">
 								ЕРТ Сочи, 19-28 марта 2021
 							</Strong>
 						</Text>
-						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
+						<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
 							Состоявшийся в марте 2021 года российский этап European Poker Tour (EPT) обрел своего нового чемпиона. Артур Мартиросян стал лучшим среди 852 участников Главного События, проходившего в Казино Сочи.{" "}
 						</Text>
 					</Box>
@@ -94,10 +94,10 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Text font="600 20px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px" sm-text-align="center">
+						<Text font="600 18px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px" sm-text-align="center">
 							Результаты финального стола События EPT Sochi 2021:
 						</Text>
-						<List margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px" font="500 16px/130% --fontFamily-googleMontserrat">
+						<List margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px" font="500 14px/130% --fontFamily-googleMontserrat">
 							<Text>
 								Артур Мартиросян (Россия)
 							</Text>
@@ -142,22 +142,22 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Text font="600 20px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px" sm-text-align="center">
+						<Text font="600 18px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px" sm-text-align="center">
 							Чемпионы Главного События EPT Sochi по годам:
 						</Text>
-						<Text font="500 16px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px">
+						<Text font="500 14px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px">
 							2018: 861 вход, Арсений Кармацкий (Россия)
 						</Text>
-						<Text font="500 16px/130% --fontFamily-googleMontserrat" margin="8px 0px 8px 0px">
+						<Text font="500 14px/130% --fontFamily-googleMontserrat" margin="8px 0px 8px 0px">
 							2019: 758 вход, Ури Гилбоа (Израиль)
 						</Text>
-						<Text font="500 16px/130% --fontFamily-googleMontserrat" margin="8px 0px 8px 0px">
+						<Text font="500 14px/130% --fontFamily-googleMontserrat" margin="8px 0px 8px 0px">
 							2020: 637 вход, Руслан Богданов (Россия)
 						</Text>
-						<Text font="500 16px/130% --fontFamily-googleMontserrat" margin="8px 0px 8px 0px">
+						<Text font="500 14px/130% --fontFamily-googleMontserrat" margin="8px 0px 8px 0px">
 							2021: 852 входа, Артур Мартиросян (Россия)
 						</Text>
-						<Text font="500 16px/150% --fontFamily-googleMontserrat" margin="18px 0px 8px 0px">
+						<Text font="500 14px/150% --fontFamily-googleMontserrat" margin="18px 0px 8px 0px">
 							Виктор Кудинов стал лучшим среди 105 участников турнира{" "}
 							<Strong>
 								хайроллеров ЕРТ Sochi.{" "}
@@ -185,10 +185,10 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Text font="600 20px/150% --fontFamily-googleMontserrat" margin="20px 0px 16px 0px" sm-text-align="center">
+						<Text font="600 18px/130% --fontFamily-googleMontserrat" margin="20px 0px 16px 0px" sm-text-align="center">
 							Результаты финального стола турнира хайроллеров EPT Sochi 2021:
 						</Text>
-						<List margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px" font="500 16px/130% --fontFamily-googleMontserrat">
+						<List margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px" font="500 14px/130% --fontFamily-googleMontserrat">
 							<Text>
 								Виктор Кудинов (Россия)
 							</Text>
@@ -214,7 +214,7 @@ export default (() => {
 								Александр Томович (Сербия)
 							</Text>
 						</List>
-						<Text font="500 18px/130% --fontFamily-googleMontserrat">
+						<Text font="500 16px/130% --fontFamily-googleMontserrat">
 							<Strong>
 								EPT Cup
 							</Strong>
@@ -239,10 +239,10 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Text font="600 20px/130% --fontFamily-googleMontserrat" margin="20px 0px 16px 0px" sm-text-align="center">
+						<Text font="600 18px/130% --fontFamily-googleMontserrat" margin="20px 0px 16px 0px" sm-text-align="center">
 							Итоги финального стола EPT Cup :
 						</Text>
-						<List margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px" font="500 16px/130% --fontFamily-googleMontserrat">
+						<List margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px" font="500 14px/130% --fontFamily-googleMontserrat">
 							<Text>
 								Дмитрий Коптев (Россия)
 							</Text>
@@ -268,7 +268,7 @@ export default (() => {
 								Константин Генералов (Россия)
 							</Text>
 						</List>
-						<Text font="500 18px/150% --fontFamily-googleMontserrat" margin="19px 0px 16px 0px">
+						<Text font="500 16px/150% --fontFamily-googleMontserrat" margin="19px 0px 16px 0px">
 							Всего 10-дневный фестиваль ЕРТ Sochi 2021 включал в себя 25 различных турниров.
 						</Text>
 					</Box>

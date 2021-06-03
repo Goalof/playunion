@@ -70,14 +70,15 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								font="700 22px/33.8px Montserrat, sans-serif"
 							>
 								Артур Восканян
 							</Strong>
 						</Text>
-						<Text font="italic 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 30px 0px">
+						<Text font="italic 400 18px/130% --fontFamily-googleMontserrat" margin="0px 0px 30px 0px">
 							Турнирный покер{"\n\n"}
 						</Text>
-						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+						<Text font="normal 400 18px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
 							Артур Восканян — основатель компании Poker Club Management, управляющий крупнейшим в России покерным клубом в Казино Сочи, игрок и самый популярный покерный блогер в российском Instagram (
 							<Link
 								href="https://www.instagram.com/artpoker/"

@@ -68,11 +68,11 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 					>
 						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
-							<Strong>
+							<Strong font="700 22px/33.8px Montserrat, sans-serif">
 								«Сильные фигуры» в Геленджике, 4 мая
 							</Strong>
 						</Text>
-						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
+						<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
 							4 мая в Геленджике на территории «Геленджик гольф резорт» прошел четвертый розыгрыш международного фестиваля «
 							<Link
 								href="https://xn--c1adibnmybyh9ege.xn--p1ai/"
@@ -90,7 +90,7 @@ export default (() => {
 							<br />
 							<br />
 							<Span
-								font="16px/27.3px Montserrat, sans-serif"
+								font="14px/27.3px Montserrat, sans-serif"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"

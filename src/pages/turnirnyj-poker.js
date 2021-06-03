@@ -62,11 +62,11 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 					>
 						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
-							<Strong>
+							<Strong font="700 22px/33.8px Montserrat, sans-serif">
 								Турнирный покер
 							</Strong>
 						</Text>
-						<Text font="normal 400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
+						<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
 							Покер – интеллектуальная азартная игра, в которой люди играют друг с другом и результат (победа или поражение) игры во многом зависит от мастерства игрока, от его умения точнее соперника рассчитывать вероятности и шансы, принимать математически оптимальные решения, анализировать и оценивать тактику и стратегию игры оппонента.{" "}
 							<br />
 							<br />

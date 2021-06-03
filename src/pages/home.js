@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Section, Strong, Text, Icon, Image, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Box, Section, Strong, Text, Icon, Image, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Formspree, SocialMedia } from "@quarkly/components";
@@ -81,7 +81,7 @@ export default (() => {
 				<StackItem width="100%" display="flex">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-start" />
 					<Text
-						font="22px/140% --fontFamily-googleMontserrat"
+						font="18px/140% --fontFamily-googleMontserrat"
 						margin="0px 0px 0px 0px"
 						lg-font="27px/130% --fontFamily-googleMontserrat"
 						lg-margin="0px 0px 0px 0px"
@@ -145,7 +145,7 @@ export default (() => {
 						display="flex"
 						align-items="center"
 						text-decoration-line="initial"
-						font="500 24px/130% --fontFamily-googleMontserrat"
+						font="500 20px/130% --fontFamily-googleMontserrat"
 						color="#000000"
 						hover-color="#8F3E2C"
 						target="_blank"
@@ -181,7 +181,7 @@ export default (() => {
 						display="flex"
 						align-items="center"
 						text-decoration-line="initial"
-						font="500 24px/130% --fontFamily-googleMontserrat"
+						font="500 20px/130% --fontFamily-googleMontserrat"
 						color="#000000"
 						hover-color="#8F3E2C"
 						target="_blank"
@@ -212,7 +212,7 @@ export default (() => {
 						display="flex"
 						align-items="center"
 						text-decoration-line="initial"
-						font="500 24px/130% --fontFamily-googleMontserrat"
+						font="500 20px/130% --fontFamily-googleMontserrat"
 						color="#000000"
 						hover-color="#8F3E2C"
 						target="_blank"
@@ -295,10 +295,10 @@ export default (() => {
 								border-radius="50px"
 								sm-width="80%"
 							/>
-							<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
+							<Text font="500 20px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
 								Марина Блудян
 							</Text>
-							<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
+							<Text font="400 18px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
 								Президент Союза
 							</Text>
 						</Box>
@@ -335,10 +335,10 @@ export default (() => {
 								border-radius="50px"
 								sm-width="80%"
 							/>
-							<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
+							<Text font="500 20px/130% --fontFamily-googleMontserrat" margin="32px 0px 16px 0px" sm-text-align="center" text-align="center">
 								Артур Восканян
 							</Text>
-							<Text font="400 21px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
+							<Text font="400 18px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
 								Турнирный покер
 							</Text>
 						</Box>
@@ -439,11 +439,14 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						width="100%"
 						height="165px"
+						object-fit="cover"
 					/>
 					<Text font="600 21px/130% --fontFamily-googleMontserrat" margin="16px 0px 8px 0px" text-align="center">
 						EPT Sochi{" "}
 						<br />
-						March 2021
+						<Span color="#ffffff">
+							.
+						</Span>
 					</Text>
 					<Text font="italic 600 18px/130% --fontFamily-googleMontserrat" margin="16px 0px 40px 0px">
 						19-28 марта 2021
@@ -729,7 +732,7 @@ export default (() => {
 						color="#ffffff"
 						sm-align-items="center"
 					/>
-					<Text font="700 35px/130% --fontFamily-googleMontserrat" color="#ffffff" margin="0px 0px 0px 0px">
+					<Text font="700 20px/130% --fontFamily-googleMontserrat" color="#ffffff" margin="0px 0px 0px 0px">
 						18+
 					</Text>
 					<Text font="400 14px/130% --fontFamily-googleMontserrat" margin="16px 0px 0px 0px" sm-text-align="center">
