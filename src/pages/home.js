@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Box, Section, Strong, Text, Icon, Image, Span, Input, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Formspree, SocialMedia } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack, Formspree } from "@quarkly/components";
 import * as Components from "components";
 import { GiPokerHand, GiHorseshoe, GiCrossedAxes } from "react-icons/gi";
 export default (() => {
@@ -712,63 +712,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#000000" padding="5px 0 5px 0" align-items="center">
-			<Override slot="SectionContent" max-width="1280px" width="95%" />
-			<Stack margin="0px 0px 0px 0px">
-				{"        "}
-				<StackItem
-					width="50%"
-					display="flex"
-					sm-width="100%"
-					sm-align-items="center"
-					sm-justify-content="center"
-				>
-					<Override
-						slot="StackItemContent"
-						align-items="flex-start"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-						color="#ffffff"
-						sm-align-items="center"
-					/>
-					<Text font="700 20px/130% --fontFamily-googleMontserrat" color="#ffffff" margin="0px 0px 0px 0px">
-						18+
-					</Text>
-					<Text font="400 14px/130% --fontFamily-googleMontserrat" margin="16px 0px 0px 0px" sm-text-align="center">
-						© 2021 Союз участников интеллектуальных игр
-					</Text>
-					{"          "}
-				</StackItem>
-				<StackItem
-					width="50%"
-					display="flex"
-					sm-width="100%"
-					sm-align-items="center"
-					sm-justify-content="center"
-				>
-					<Override
-						slot="StackItemContent"
-						align-items="flex-end"
-						justify-content="center"
-						padding="0px 0px 0px 0px"
-						flex-direction="column"
-						color="#ffffff"
-						sm-align-items="center"
-					/>
-					<SocialMedia
-						facebook="https://www.facebook.com/quarklyapp/"
-						twitter="https://twitter.com/quarklyapp"
-						youtube="https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw"
-						vkontakte="https://vk.com/quarklyapp"
-						telegram="https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ"
-					>
-						<Override slot="link" color="#ffffff" background="rgba(237, 242, 246, 0)" />
-					</SocialMedia>
-					{"          "}
-				</StackItem>
-			</Stack>
-		</Section>
+		<Components.Footer />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
