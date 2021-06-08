@@ -46,7 +46,9 @@ export default (() => {
 							width="100%"
 							border-radius="6px"
 							sm-width="100%"
-							height="auto"
+							height="500px"
+							object-fit="cover"
+							object-position="0% 40%"
 						/>
 					</Box>
 					{"          "}
@@ -100,7 +102,7 @@ export default (() => {
 							>
 								Источник:{" "}
 								<Link href="https://sport24.ru/news/golf/2021-05-05-rezultaty-mezhdunarodnogo-festivalya-silnyye-figury-v-gelendzhike" target="_blank" color="#001A51">
-									https://sport24.ru/news/golf/2021-05-05-rezultaty-mezhdunarodnogo-festivalya-silnyye-figury-v-gelendzhike
+									https://sport24.ru/
 								</Link>
 							</Span>
 						</Text>

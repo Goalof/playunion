@@ -41,7 +41,14 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/tablepoker.jpg?v=2021-05-19T17:13:20.409Z" width="100%" border-radius="6px" height="auto" />
+						<Image
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/tablepoker.jpg?v=2021-05-19T17:13:20.409Z"
+							width="100%"
+							border-radius="6px"
+							height="400px"
+							object-fit="cover"
+							object-position="0% 0%"
+						/>
 					</Box>
 					{"          "}
 				</StackItem>

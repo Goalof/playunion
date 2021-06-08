@@ -46,7 +46,9 @@ export default (() => {
 							width="100%"
 							border-radius="6px"
 							sm-width="100%"
-							height="auto"
+							height="500px"
+							object-fit="cover"
+							object-position="10% 30%"
 						/>
 					</Box>
 					{"          "}
