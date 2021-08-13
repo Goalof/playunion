@@ -20,7 +20,7 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/6.png?v=2021-04-16T21:43:23.926Z"} />
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
-		<Section min-height="100vh" background="#000000">
+		<Section background="#000000" height="100vh">
 			<Override slot="SectionContent" align-items="center" justify-content="center" />
 			<Link
 				href="/home"
