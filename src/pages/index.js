@@ -25,12 +25,12 @@ export default (() => {
 			<Link
 				href="/home"
 				width="100%"
-				transition="all 0.5s linear 0s"
+				transition="opacity 0.5s linear 0s"
 				transform="scale(1)"
-				hover-transform="scale(1.05)"
 				display="flex"
 				align-items="center"
 				justify-content="center"
+				hover-opacity="0.8"
 			>
 				<Image className="logo" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/svglogo.svg?v=2021-04-18T17:39:02.879Z" color="#ffffff" width="70%" />
 			</Link>
