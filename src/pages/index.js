@@ -25,7 +25,6 @@ export default (() => {
 			<Link
 				href="/home"
 				width="100%"
-				transition="opacity 0.5s linear 0s"
 				transform="scale(1)"
 				display="flex"
 				align-items="center"
