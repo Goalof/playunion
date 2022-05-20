@@ -31,7 +31,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					<Components.QuarklycommunityKitCarousel
 						height="500px"
-						slidesProp="2"
+						slidesProp="3"
 						showHead={false}
 						showLink={false}
 						showText={false}
@@ -43,8 +43,6 @@ export default (() => {
 						max-width="1248px"
 						width="100%"
 						lg-max-width="800px"
-						md-max-width="700px"
-						sm-max-width="360px"
 					>
 						<Override
 							slot="Slide Image"
@@ -62,16 +60,17 @@ export default (() => {
 							height="500px"
 							md-height="400px"
 							sm-height="200px"
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/1400%D1%85410-01.png?v=2021-04-28T18:28:13.562Z"
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/banner1.jpg?v=2021-05-31T15:49:13.737Z"
 						/>
 						<Override
 							slot="Slide Image 1"
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/banner1.jpg?v=2021-05-31T15:49:13.737Z"
 							object-fit="cover"
 							height="500px"
 							md-height="400px"
 							sm-height="200px"
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/logo-poker-fm-champ.png?v=2022-05-20T08:49:58.812Z"
 						/>
+						<Override slot="Slide Image 3" src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/1400%D1%85410-01.png?v=2021-04-28T18:28:13.562Z" />
 					</Components.QuarklycommunityKitCarousel>
 					{"            "}
 				</StackItem>
@@ -592,6 +591,40 @@ export default (() => {
 			<Override slot="SectionContent" max-width="1280px" width="95%" />
 			<Stack align-items="center" justify-content="center" margin="0px 0px 0px 0px">
 				{"        "}
+				<StackItem
+					margin="0px 0px 0px 0px"
+					lg-width="50%"
+					lg-margin="0 0 20px 0"
+					width="25%"
+					display="flex"
+				>
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						padding="0px 0px 0px 0px"
+						flex-direction="column"
+					/>
+					<Box
+						display="flex"
+						align-items="center"
+						justify-content="center"
+						flex-direction="column"
+						padding="0px 20px 0px 20px"
+					>
+						<Link href="/news/FW-Russia-poker-championship">
+							<Image
+								max-width="450px"
+								filter="grayscale(100%)"
+								transition="all .3s"
+								hover-filter="grayscale(0%)"
+								src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/7bd8d608-33f0-43f4-9cd7-c91eb695c74c.jpg?v=2022-05-20T08:35:51.664Z"
+								width="100%"
+							/>
+						</Link>
+					</Box>
+					{"          "}
+				</StackItem>
 				<StackItem
 					margin="0px 0px 0px 0px"
 					lg-width="50%"
