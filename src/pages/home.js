@@ -36,11 +36,15 @@ export default (() => {
 						showLink={false}
 						showText={false}
 						autoPlayBehavior="range"
-						width="100%"
 						autoPlay={false}
 						aspectRatio="auto"
 						lg-height="400px"
 						sm-height="200px"
+						max-width="1248px"
+						width="100%"
+						lg-max-width="800px"
+						md-max-width="700px"
+						sm-max-width="360px"
 					>
 						<Override
 							slot="Slide Image"
