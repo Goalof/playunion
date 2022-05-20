@@ -21,8 +21,8 @@ export default {
 		],
 		"fullHd": [
 			{
-				"type": "min-width",
-				"value": "1700"
+				"value": "1700",
+				"type": "min-width"
 			}
 		]
 	},

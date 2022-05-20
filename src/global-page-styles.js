@@ -10,6 +10,7 @@ const pageStyles = {
     "artur-voskanyan": {},
     "turnirnyj-poker": {},
     "news": {},
+    "news/FW-Russia-poker-championship": {},
     "news/ert-sochi": {},
     "news/silnye-figuri-v-gelendgike": {}
 };

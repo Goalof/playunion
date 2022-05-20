@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Strong, Text, Span, Section } from "@quarkly/widgets";
+import { Theme, Image, Box, Strong, Text, Link, Span, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -22,33 +22,33 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
 		<Components.HeaderNew />
-		<Section background="#F8F8F8" padding="115px 0 45px 0" align-items="center">
-			<Override slot="SectionContent" max-width="1280px" width="95%" />
+		<Section align-items="center" background="#F8F8F8" padding="115px 0 45px 0">
+			<Override slot="SectionContent" width="95%" max-width="1280px" />
 			<Stack margin="0px 0px 0px 0px" align-items="flex-start" justify-content="center">
 				{"        "}
-				<StackItem width="100%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+				<StackItem display="flex" md-width="100%" margin="0px 0px 0px 0px" width="100%">
 					<Override
 						slot="StackItemContent"
+						md-align-items="center"
 						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
-						md-align-items="center"
 					/>
 					<Box
+						flex-direction="column"
+						padding="0px 0px 0px 0px"
 						display="flex"
 						align-items="center"
 						justify-content="center"
-						flex-direction="column"
-						padding="0px 0px 0px 0px"
 					>
 						<Image
+							object-position="0% 40%"
 							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/7.webp?v=2021-06-01T22:35:07.809Z"
 							width="100%"
 							border-radius="6px"
 							sm-width="100%"
 							height="500px"
 							object-fit="cover"
-							object-position="0% 40%"
 						/>
 					</Box>
 					{"          "}
@@ -69,7 +69,7 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
+						<Text sm-text-align="center" text-align="center" font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px">
 							<Strong font="700 22px/33.8px Montserrat, sans-serif">
 								«Сильные фигуры» в Геленджике, 4 мая
 							</Strong>
@@ -77,14 +77,14 @@ export default (() => {
 						<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px">
 							4 мая в Геленджике на территории «Геленджик гольф резорт» прошел четвертый розыгрыш международного фестиваля «
 							<Link
-								href="https://xn--c1adibnmybyh9ege.xn--p1ai/"
-								color="#001A51"
-								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								overflow-wrap="normal"
+								href="https://xn--c1adibnmybyh9ege.xn--p1ai/"
+								color="#001A51"
 							>
 								Сильные фигуры
 							</Link>
@@ -92,16 +92,26 @@ export default (() => {
 							<br />
 							<br />
 							<Span
+								word-break="normal"
+								text-indent="0"
 								font="14px/27.3px Montserrat, sans-serif"
 								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								white-space="normal"
 							>
 								Источник:{" "}
-								<Link href="https://sport24.ru/news/golf/2021-05-05-rezultaty-mezhdunarodnogo-festivalya-silnyye-figury-v-gelendzhike" target="_blank" color="#001A51">
+								<Link
+									href="https://sport24.ru/news/golf/2021-05-05-rezultaty-mezhdunarodnogo-festivalya-silnyye-figury-v-gelendzhike"
+									target="_blank"
+									color="#001A51"
+									overflow-wrap="normal"
+									word-break="normal"
+									white-space="normal"
+									text-indent="0"
+									text-overflow="clip"
+									hyphens="manual"
+								>
 									https://sport24.ru/
 								</Link>
 							</Span>
@@ -112,28 +122,6 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.Footer />
-		<Link
-			font={"--capture"}
-			font-size={"10px"}
-			position={"fixed"}
-			bottom={"12px"}
-			right={"12px"}
-			z-index={"4"}
-			border-radius={"4px"}
-			padding={"5px 12px 4px"}
-			background-color={"--dark"}
-			opacity={"0.6"}
-			hover-opacity={"1"}
-			color={"--light"}
-			cursor={"pointer"}
-			transition={"--opacityOut"}
-			quarkly-title={"Badge"}
-			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
-			target={"_blank"}
-		>
-			Made on Quarkly
-		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6079f48266fcdfa80157a2ab"}>
 				{"* {\n    scroll-behavior: smooth;\n    }"}

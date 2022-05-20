@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Strong, Text, Section } from "@quarkly/widgets";
+import { Theme, Image, Box, Strong, Text, Link, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -29,18 +29,18 @@ export default (() => {
 				<StackItem width="30%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
-						align-items="flex-start"
 						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
 						md-align-items="center"
+						align-items="flex-start"
 					/>
 					<Box
+						padding="0px 0px 0px 0px"
 						display="flex"
 						align-items="center"
 						justify-content="center"
 						flex-direction="column"
-						padding="0px 0px 0px 0px"
 					>
 						<Image src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/photo-artur.webp?v=2021-04-19T00:05:54.037Z" width="100%" max-width="450px" border-radius="6px" />
 					</Box>
@@ -49,11 +49,11 @@ export default (() => {
 				<StackItem width="70%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
+						md-align-items="center"
 						align-items="flex-start"
 						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
-						md-align-items="center"
 					/>
 					<Box
 						display="flex"
@@ -62,15 +62,15 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 14px 0px" sm-text-align="center" text-align="center">
+						<Text text-align="center" font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 14px 0px" sm-text-align="center">
 							<Strong
+								hyphens="manual"
+								font="700 22px/33.8px Montserrat, sans-serif"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
 								text-indent="0"
 								text-overflow="clip"
-								hyphens="manual"
-								font="700 22px/33.8px Montserrat, sans-serif"
 							>
 								Артур Восканян
 							</Strong>
@@ -81,16 +81,16 @@ export default (() => {
 						<Text font="normal 400 18px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
 							Артур Восканян — основатель компании Poker Club Management, управляющий крупнейшим в России покерным клубом в Казино Сочи, игрок и самый популярный покерный блогер в российском Instagram (
 							<Link
-								href="https://www.instagram.com/artpoker/"
-								target="_blank"
-								text-decoration-line="initial"
-								color="#001A51"
 								overflow-wrap="normal"
 								word-break="normal"
-								white-space="normal"
 								text-indent="0"
-								text-overflow="clip"
 								hyphens="manual"
+								href="https://www.instagram.com/artpoker/"
+								color="#001A51"
+								white-space="normal"
+								text-overflow="clip"
+								target="_blank"
+								text-decoration-line="initial"
 							>
 								@artpoker
 							</Link>
@@ -126,28 +126,6 @@ export default (() => {
 			</Text>
 		</Section>
 		<Components.Footer />
-		<Link
-			font={"--capture"}
-			font-size={"10px"}
-			position={"fixed"}
-			bottom={"12px"}
-			right={"12px"}
-			z-index={"4"}
-			border-radius={"4px"}
-			padding={"5px 12px 4px"}
-			background-color={"--dark"}
-			opacity={"0.6"}
-			hover-opacity={"1"}
-			color={"--light"}
-			cursor={"pointer"}
-			transition={"--opacityOut"}
-			quarkly-title={"Badge"}
-			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
-			target={"_blank"}
-		>
-			Made on Quarkly
-		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6079f48266fcdfa80157a2ab"}>
 				{"* {\n    scroll-behavior: smooth;\n    }"}

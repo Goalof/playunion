@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Strong, Text, List, Section } from "@quarkly/widgets";
+import { Theme, Image, Box, Strong, Text, List, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -22,17 +22,17 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#000000"} />
 		</Helmet>
 		<Components.HeaderNew />
-		<Section background="#F8F8F8" padding="115px 0 45px 0" align-items="center">
+		<Section padding="115px 0 45px 0" align-items="center" background="#F8F8F8">
 			<Override slot="SectionContent" max-width="1280px" width="95%" />
-			<Stack margin="0px 0px 0px 0px" align-items="flex-start" justify-content="center">
+			<Stack align-items="flex-start" justify-content="center" margin="0px 0px 0px 0px">
 				{"        "}
-				<StackItem width="100%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+				<StackItem margin="0px 0px 0px 0px" width="100%" display="flex" md-width="100%">
 					<Override
 						slot="StackItemContent"
-						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
 						md-align-items="center"
+						justify-content="center"
 					/>
 					<Box
 						display="flex"
@@ -42,25 +42,25 @@ export default (() => {
 						padding="0px 0px 0px 0px"
 					>
 						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/ept-sochi.jpg?v=2021-05-05T13:09:12.729Z"
 							width="100%"
 							border-radius="6px"
 							sm-width="100%"
 							height="500px"
 							object-fit="cover"
 							object-position="10% 30%"
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/ept-sochi.jpg?v=2021-05-05T13:09:12.729Z"
 						/>
 					</Box>
 					{"          "}
 				</StackItem>
-				<StackItem width="100%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+				<StackItem md-width="100%" margin="0px 0px 0px 0px" width="100%" display="flex">
 					<Override
 						slot="StackItemContent"
-						align-items="flex-start"
 						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
 						md-align-items="center"
+						align-items="flex-start"
 					/>
 					<Box
 						display="flex"
@@ -138,11 +138,11 @@ export default (() => {
 						md-align-items="center"
 					/>
 					<Box
+						flex-direction="column"
+						padding="0px 0px 0px 0px"
 						display="flex"
 						align-items="flex-start"
 						justify-content="center"
-						flex-direction="column"
-						padding="0px 0px 0px 0px"
 					>
 						<Text font="600 18px/130% --fontFamily-googleMontserrat" margin="0px 0px 16px 0px" sm-text-align="center">
 							Чемпионы Главного События EPT Sochi по годам:
@@ -174,11 +174,11 @@ export default (() => {
 				<StackItem width="50%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
-						align-items="flex-start"
-						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
 						md-align-items="center"
+						align-items="flex-start"
+						justify-content="center"
 					/>
 					<Box
 						display="flex"
@@ -190,7 +190,7 @@ export default (() => {
 						<Text font="600 18px/130% --fontFamily-googleMontserrat" margin="20px 0px 16px 0px" sm-text-align="center">
 							Результаты финального стола турнира хайроллеров EPT Sochi 2021:
 						</Text>
-						<List margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px" font="500 14px/130% --fontFamily-googleMontserrat">
+						<List font="500 14px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px" list-style-type="decimal" padding="0px 0px 0px 30px">
 							<Text>
 								Виктор Кудинов (Россия)
 							</Text>
@@ -225,7 +225,7 @@ export default (() => {
 					</Box>
 					{"          "}
 				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
+				<StackItem margin="0px 0px 0px 0px" width="50%" display="flex" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						align-items="flex-start"
@@ -235,11 +235,11 @@ export default (() => {
 						md-align-items="center"
 					/>
 					<Box
+						flex-direction="column"
+						padding="0px 0px 0px 0px"
 						display="flex"
 						align-items="flex-start"
 						justify-content="center"
-						flex-direction="column"
-						padding="0px 0px 0px 0px"
 					>
 						<Text font="600 18px/130% --fontFamily-googleMontserrat" margin="20px 0px 16px 0px" sm-text-align="center">
 							Итоги финального стола EPT Cup :
@@ -279,28 +279,6 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.Footer />
-		<Link
-			font={"--capture"}
-			font-size={"10px"}
-			position={"fixed"}
-			bottom={"12px"}
-			right={"12px"}
-			z-index={"4"}
-			border-radius={"4px"}
-			padding={"5px 12px 4px"}
-			background-color={"--dark"}
-			opacity={"0.6"}
-			hover-opacity={"1"}
-			color={"--light"}
-			cursor={"pointer"}
-			transition={"--opacityOut"}
-			quarkly-title={"Badge"}
-			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
-			target={"_blank"}
-		>
-			Made on Quarkly
-		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6079f48266fcdfa80157a2ab"}>
 				{"* {\n    scroll-behavior: smooth;\n    }"}

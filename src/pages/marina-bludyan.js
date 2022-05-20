@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Strong, Text, List, Section } from "@quarkly/widgets";
+import { Theme, Image, Box, Strong, Text, List, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -24,16 +24,16 @@ export default (() => {
 		<Components.Header />
 		<Section background="#F8F8F8" padding="145px 0 45px 0" align-items="center">
 			<Override slot="SectionContent" max-width="1280px" width="100%" />
-			<Stack margin="0px 0px 0px 0px" align-items="flex-start" justify-content="center">
+			<Stack justify-content="center" margin="0px 0px 0px 0px" align-items="flex-start">
 				{"        "}
 				<StackItem width="30%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
-						align-items="flex-start"
-						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
 						md-align-items="center"
+						align-items="flex-start"
+						justify-content="center"
 					/>
 					<Box
 						display="flex"
@@ -49,11 +49,11 @@ export default (() => {
 				<StackItem width="70%" display="flex" md-width="100%" margin="0px 0px 0px 0px">
 					<Override
 						slot="StackItemContent"
-						align-items="flex-start"
 						justify-content="center"
 						padding="0px 0px 0px 0px"
 						flex-direction="column"
 						md-align-items="center"
+						align-items="flex-start"
 					/>
 					<Box
 						display="flex"
@@ -62,7 +62,7 @@ export default (() => {
 						flex-direction="column"
 						padding="0px 0px 0px 0px"
 					>
-						<Text font="500 22px/130% --fontFamily-googleMontserrat" margin="0px 0px 14px 0px" sm-text-align="center" text-align="center">
+						<Text margin="0px 0px 14px 0px" sm-text-align="center" text-align="center" font="500 22px/130% --fontFamily-googleMontserrat">
 							<Strong>
 								Марина Блудян{"\n\n"}
 							</Strong>
@@ -70,7 +70,7 @@ export default (() => {
 						<Text font="italic 400 18px/130% --fontFamily-googleMontserrat" margin="0px 0px 30px 0px">
 							Президент Союза{"\n\n"}
 						</Text>
-						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+						<List margin="0px 0px 16px 0px" padding="0px 0px 0px 20px">
 							<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
 								Первый вице-президент Общероссийской общественной организации малого и среднего предпринимательства «ОПОРА РОССИИ»;{"\n\n"}
 							</Text>
@@ -80,7 +80,7 @@ export default (() => {
 								Представитель Уполномоченного при Президенте Российской Федерации по защите прав предпринимателей по вопросам, связанным с ликвидацией нарушений прав предпринимателей сфере пожарной безопасности и по вопросам защиты прав предпринимателей, использующих специальные налоговые режимы, в том числе замозанятых;{"\n\n"}
 							</Text>
 						</List>
-						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+						<List margin="0px 0px 16px 0px" padding="0px 0px 0px 20px">
 							<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
 								Член Высшего совета Всероссийской политической партии «ЕДИНАЯ РОССИЯ»;
 							</Text>
@@ -91,7 +91,7 @@ export default (() => {
 							</Text>
 						</List>
 						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
-							<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/130% --fontFamily-googleMontserrat">
 								Заместитель Председателя Общественного совета Федеральной службы по аккредитации «Росаккредитация»;
 							</Text>
 						</List>
@@ -105,7 +105,7 @@ export default (() => {
 								Член Комиссии по апелляциям при Федеральном агентстве по техническому регулированию и метрологии (Росстандарт);
 							</Text>
 						</List>
-						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+						<List margin="0px 0px 16px 0px" padding="0px 0px 0px 20px">
 							<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
 								Член Комиссии по апелляциям при Федеральной службе по аккредитации (Росаккредитация)
 							</Text>
@@ -127,7 +127,7 @@ export default (() => {
 								Сопредседатель рабочих групп по реализации механизма «регуляторной гильотины» в сферах пожарной безопасности, гражданской обороны и чрезвычайных ситуаций и в сфере азартных игр и лотерей;
 							</Text>
 						</List>
-						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
+						<List margin="0px 0px 16px 0px" padding="0px 0px 0px 20px">
 							<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
 								Председатель Технического комитета по стандартизации ТК 079
 								<br />
@@ -148,11 +148,11 @@ export default (() => {
 							</Text>
 						</List>
 						<List padding="0px 0px 0px 20px" margin="0px 0px 16px 0px">
-							<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+							<Text margin="0px 0px 0px 0px" font="normal 400 16px/130% --fontFamily-googleMontserrat">
 								рабочая группа по улучшению условий ведения предпринимательской деятельности при Правительственной комиссии по экономическому развитию и интеграции
 							</Text>
 						</List>
-						<Text font="normal 400 16px/130% --fontFamily-googleMontserrat" margin="0px 0px 0px 0px">
+						<Text margin="0px 0px 0px 0px" font="normal 400 16px/130% --fontFamily-googleMontserrat">
 							Марина Анатольевна активно занимается законотворческой деятельностью, является разработчиком десятков законодательных инициатив в сфере технического регулирования, государственного и муниципального контроля и надзора, вносит поправки и предложения к рассматриваемым законопроектам, выступает с докладами на российских и международных форумах предпринимателей.{"\n\n\n\n"}
 						</Text>
 					</Box>
@@ -161,28 +161,6 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.Footer />
-		<Link
-			font={"--capture"}
-			font-size={"10px"}
-			position={"fixed"}
-			bottom={"12px"}
-			right={"12px"}
-			z-index={"4"}
-			border-radius={"4px"}
-			padding={"5px 12px 4px"}
-			background-color={"--dark"}
-			opacity={"0.6"}
-			hover-opacity={"1"}
-			color={"--light"}
-			cursor={"pointer"}
-			transition={"--opacityOut"}
-			quarkly-title={"Badge"}
-			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
-			target={"_blank"}
-		>
-			Made on Quarkly
-		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6079f48266fcdfa80157a2ab"}>
 				{"* {\n    scroll-behavior: smooth;\n    }"}

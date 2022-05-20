@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Strong, Text, Section } from "@quarkly/widgets";
+import { Theme, Image, Box, Strong, Text, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
@@ -35,19 +35,19 @@ export default (() => {
 						md-align-items="center"
 					/>
 					<Box
+						padding="0px 0px 0px 0px"
 						display="flex"
 						align-items="center"
 						justify-content="center"
 						flex-direction="column"
-						padding="0px 0px 0px 0px"
 					>
 						<Image
-							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/tablepoker.jpg?v=2021-05-19T17:13:20.409Z"
-							width="100%"
 							border-radius="6px"
 							height="400px"
 							object-fit="cover"
 							object-position="0% 0%"
+							src="https://uploads.quarkly.io/6079f3c67c7120001f1ee287/images/tablepoker.jpg?v=2021-05-19T17:13:20.409Z"
+							width="100%"
 						/>
 					</Box>
 					{"          "}
@@ -62,13 +62,13 @@ export default (() => {
 						md-align-items="center"
 					/>
 					<Box
+						flex-direction="column"
+						padding="0px 0px 0px 0px"
 						display="flex"
 						align-items="flex-start"
 						justify-content="center"
-						flex-direction="column"
-						padding="0px 0px 0px 0px"
 					>
-						<Text font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center" text-align="center">
+						<Text text-align="center" font="500 26px/130% --fontFamily-googleMontserrat" margin="0px 0px 23px 0px" sm-text-align="center">
 							<Strong font="700 22px/33.8px Montserrat, sans-serif">
 								Турнирный покер
 							</Strong>
@@ -107,28 +107,6 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.Footer />
-		<Link
-			font={"--capture"}
-			font-size={"10px"}
-			position={"fixed"}
-			bottom={"12px"}
-			right={"12px"}
-			z-index={"4"}
-			border-radius={"4px"}
-			padding={"5px 12px 4px"}
-			background-color={"--dark"}
-			opacity={"0.6"}
-			hover-opacity={"1"}
-			color={"--light"}
-			cursor={"pointer"}
-			transition={"--opacityOut"}
-			quarkly-title={"Badge"}
-			text-decoration-line={"initial"}
-			href={"https://quarkly.io/"}
-			target={"_blank"}
-		>
-			Made on Quarkly
-		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"6079f48266fcdfa80157a2ab"}>
 				{"* {\n    scroll-behavior: smooth;\n    }"}
